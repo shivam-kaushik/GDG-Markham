@@ -1,0 +1,133 @@
+- generic [ref=f3e2]:
+  - link "Skip to content" [ref=f3e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f3e4]:
+    - generic [ref=f3e5]:
+      - link "TodoMarkham" [ref=f3e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=f3e12]:
+        - link "Explore" [ref=f3e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=f3e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=f3e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=f3e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=f3e17] [cursor=pointer]:
+          - /url: "#/saved"
+      - generic [ref=f3e18]:
+        - group "Mode" [ref=f3e19]:
+          - button "Participating" [pressed] [ref=f3e20] [cursor=pointer]
+          - button "Hosting" [ref=f3e21] [cursor=pointer]
+        - generic [ref=f3e22]:
+          - generic [ref=f3e26]: Language
+          - combobox "Language" [ref=f3e27]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=f3e28] [cursor=pointer]: A−
+        - button "Text size +" [ref=f3e29] [cursor=pointer]: A+
+        - link "My settings" [ref=f3e30] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=f3e31]:
+    - generic [ref=f3e33]:
+      - generic [ref=f3e34]:
+        - generic [ref=f3e35]:
+          - heading "Community" [level=1] [ref=f3e36]
+          - paragraph [ref=f3e37]: Ask questions, share tips and help each other. Neighbours, hosts and volunteers are all welcome.
+        - button "Start a conversation" [ref=f3e38] [cursor=pointer]
+      - generic [ref=f3e41]:
+        - group "Topic" [ref=f3e42]:
+          - button "All topics" [pressed] [ref=f3e43] [cursor=pointer]
+          - button "Newcomers" [ref=f3e44] [cursor=pointer]
+          - button "Accessibility" [ref=f3e45] [cursor=pointer]
+          - button "Seniors and caregivers" [ref=f3e46] [cursor=pointer]
+          - button "Families" [ref=f3e47] [cursor=pointer]
+          - button "Volunteers" [ref=f3e48] [cursor=pointer]
+          - button "Rides and transit" [ref=f3e49] [cursor=pointer]
+          - button "Hosts" [ref=f3e50] [cursor=pointer]
+          - button "Language and culture" [ref=f3e51] [cursor=pointer]
+        - generic [ref=f3e52]:
+          - generic [ref=f3e53]: Language
+          - combobox "Language" [ref=f3e54]:
+            - option "Any language" [selected]
+            - option "English"
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+      - list [ref=f3e55]:
+        - listitem [ref=f3e56]:
+          - generic [ref=f3e57]:
+            - generic [ref=f3e58]: Newcomers
+            - generic [ref=f3e59]: English
+          - heading [level=2] [ref=f3e60]:
+            - 'link "Just moved to Markham: where do I start?" [ref=f3e61] [cursor=pointer]':
+              - /url: "#/community/f1"
+          - paragraph [ref=f3e62]: Priya N. · Oct 21 · 2 replies
+          - paragraph [ref=f3e63]: The Saturday conversation circles at Markham Village Library are very friendly, and Cantonese and Mandarin speakers usually come too.
+        - listitem [ref=f3e67]:
+          - generic [ref=f3e68]:
+            - generic [ref=f3e69]: Accessibility
+            - generic [ref=f3e70]: English
+          - heading [level=2] [ref=f3e71]:
+            - link "Events with no flashing lights?" [ref=f3e72] [cursor=pointer]:
+              - /url: "#/community/f2"
+          - paragraph [ref=f3e73]: Sam K. · Oct 20 · 2 replies
+          - paragraph [ref=f3e74]: On each event page, look at the "Flashing lights" tile. If it says Not known yet, use "Ask the host". Hosts usually answer within a day.
+        - listitem [ref=f3e78]:
+          - generic [ref=f3e79]:
+            - generic [ref=f3e80]: Seniors and caregivers
+            - generic [ref=f3e81]: English
+          - heading [level=2] [ref=f3e82]:
+            - link "Quiet, seated activities for my father (82)" [ref=f3e83] [cursor=pointer]:
+              - /url: "#/community/f3"
+          - paragraph [ref=f3e84]: Margaret T. · Oct 19 · 1 replies
+          - paragraph [ref=f3e85]: The quiet board games afternoon at Milliken Mills has large print cards, a calm side room and accessible parking.
+        - listitem [ref=f3e89]:
+          - generic [ref=f3e90]:
+            - generic [ref=f3e91]: Rides and transit
+            - generic [ref=f3e92]: English
+          - heading [level=2] [ref=f3e93]:
+            - 'link "No car: how do you get to evening events?" [ref=f3e94] [cursor=pointer]':
+              - /url: "#/community/f4"
+          - paragraph [ref=f3e95]: Chris M. · Oct 18 · 1 replies
+          - paragraph [ref=f3e96]: The Viva Blue line runs late from Civic Centre Terminal. Check "Easy to reach without a car" on the For you page.
+        - listitem [ref=f3e100]:
+          - generic [ref=f3e101]:
+            - generic [ref=f3e102]: Language and culture
+            - generic [ref=f3e103]: 普通话
+          - heading [level=2] [ref=f3e104]:
+            - link "谁可以推荐适合长辈的免费活动？" [ref=f3e105] [cursor=pointer]:
+              - /url: "#/community/f5"
+          - paragraph [ref=f3e106]: 陈女士 · Oct 17 · 1 replies
+          - paragraph [ref=f3e107]: 早上的太极班用广东话和英语授课，也可以坐着做，在 Centennial Park。
+        - listitem [ref=f3e111]:
+          - generic [ref=f3e112]:
+            - generic [ref=f3e113]: Volunteers
+            - generic [ref=f3e114]: English
+          - heading [level=2] [ref=f3e115]:
+            - link "Volunteer shifts for teens and parents" [ref=f3e116] [cursor=pointer]:
+              - /url: "#/community/f6"
+          - paragraph [ref=f3e117]: Chris M. · Oct 16 · 1 replies
+          - paragraph [ref=f3e118]: Yes! Volunteers 16 and over are paired with a buddy. Wednesday 4 to 6 pm is best for first-timers.
+        - listitem [ref=f3e122]:
+          - generic [ref=f3e123]:
+            - generic [ref=f3e124]: Hosts
+            - generic [ref=f3e125]: English
+          - heading [level=2] [ref=f3e126]:
+            - 'link "Hosts: how do I describe access honestly?" [ref=f3e127] [cursor=pointer]':
+              - /url: "#/community/f7"
+          - paragraph [ref=f3e128]: Rana H. · Oct 15 · 1 replies
+          - paragraph [ref=f3e129]: Write exactly what you know, and mark anything else as unknown. Neighbours would rather ask than be surprised.
+  - contentinfo [ref=f3e133]:
+    - generic [ref=f3e134]:
+      - generic [ref=f3e135]:
+        - strong [ref=f3e138]: TodoMarkham
+        - generic [ref=f3e139]: Events in Markham that fit you.
+      - generic [ref=f3e140]: Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [ref=f3e141] [cursor=pointer]

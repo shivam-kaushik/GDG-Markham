@@ -1,0 +1,306 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "TodoMarkham" [ref=f2e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=f2e12]:
+        - link "Explore" [ref=f2e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=f2e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=f2e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=f2e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=f2e17] [cursor=pointer]:
+          - /url: "#/saved"
+      - generic [ref=f2e18]:
+        - group "Mode" [ref=f2e19]:
+          - button "Participating" [pressed] [ref=f2e20] [cursor=pointer]
+          - button "Hosting" [ref=f2e21] [cursor=pointer]
+        - generic [ref=f2e22]:
+          - generic [ref=f2e26]: Language
+          - combobox "Language" [ref=f2e27]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=f2e28] [cursor=pointer]: A−
+        - button "Text size +" [ref=f2e29] [cursor=pointer]: A+
+        - link "My settings" [ref=f2e30] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=f2e31]:
+    - article [ref=f2e610]:
+      - generic [ref=f2e611]:
+        - navigation "Breadcrumb" [ref=f2e612]:
+          - link "Explore" [ref=f2e613] [cursor=pointer]:
+            - /url: "#/"
+          - generic [ref=f2e616]: Community
+          - generic [ref=f2e619]: Unionville Library
+        - generic [ref=f2e620]:
+          - button "Save" [ref=f2e621] [cursor=pointer]
+          - button "Share" [ref=f2e624] [cursor=pointer]
+      - paragraph [ref=f2e630]: Demo event. Details, sign-up and conversations are illustrative, not a live listing.
+      - generic [ref=f2e634]:
+        - generic [ref=f2e635]:
+          - generic [ref=f2e636]: Community
+          - generic [ref=f2e637]: Monthly series
+          - generic [ref=f2e638]: From TodoMarkham
+        - heading "Unionville Mending Circle" [level=1] [ref=f2e639]
+        - paragraph [ref=f2e640]: Bring one item of clothing to mend. Needles, thread and scraps are shared. Beginners are welcome and a volunteer will help you get started.
+        - paragraph [ref=f2e641]:
+          - generic [ref=f2e642]: Hosted by
+          - strong [ref=f2e643]: Thread & Neighbour Collective
+          - generic [ref=f2e644]: ·
+          - text: English · 普通话
+      - generic [ref=f2e648]:
+        - figure "New faces. All skill levels. Always welcome." [ref=f2e649]
+        - generic [ref=f2e653]:
+          - generic [ref=f2e654]:
+            - paragraph [ref=f2e655]: Free
+            - generic [ref=f2e656]: 8 spots left
+          - paragraph [ref=f2e657]: No fees. Shared supplies included.
+          - list [ref=f2e658]:
+            - listitem [ref=f2e659]: Saturday, November 7, 2026
+            - listitem [ref=f2e663]: 1:00 p.m. – 3:00 p.m.
+            - listitem [ref=f2e667]: Unionville Library
+          - generic [ref=f2e671]:
+            - generic [ref=f2e672]: Join as
+            - combobox "Join as" [ref=f2e673]:
+              - option "Participant, 1 person" [selected]
+              - option "Volunteer"
+          - button "Join this event" [ref=f2e674] [cursor=pointer]
+          - paragraph [ref=f2e677]: 22 of 30 places filled. Cancel anytime.
+          - link "View on TodoMarkham" [ref=f2e678] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=f2e681]:
+            - strong [ref=f2e682]: From TodoMarkham
+            - text: · No rating yet · Checked Oct 24
+          - paragraph [ref=f2e683]: Tickets and payment are handled by TodoMarkham.
+      - generic [ref=f2e684]:
+        - strong [ref=f2e685]: Why this fits you
+        - list [ref=f2e686]:
+          - listitem [ref=f2e687]: You enjoy Community
+          - listitem [ref=f2e688]: It is free
+          - listitem [ref=f2e689]: About 29 min by Transit
+      - region [ref=f2e690]:
+        - generic [ref=f2e691]:
+          - generic [ref=f2e692]:
+            - heading "What to expect" [level=2] [ref=f2e693]
+            - paragraph [ref=f2e694]: A little more certainty before you go.
+          - generic [ref=f2e695]: Host details updated Oct 24, 2026
+        - list [ref=f2e698]:
+          - listitem [ref=f2e699]:
+            - generic [ref=f2e700]:
+              - heading "Accessibility" [level=3] [ref=f2e701]
+              - generic [ref=f2e702]: ✓ Confirmed by host
+            - paragraph [ref=f2e703]: Step-free entrance, Accessible washroom
+            - paragraph [ref=f2e704]: The entrance is step-free. - Lin, host
+          - listitem [ref=f2e705]:
+            - generic [ref=f2e706]:
+              - heading "Noise" [level=3] [ref=f2e707]
+              - generic [ref=f2e708]: ~ Our estimate
+            - paragraph [ref=f2e709]: Quiet setting
+            - paragraph [ref=f2e710]: Sewing is quiet, with occasional machine noise. Not measured.
+          - listitem [ref=f2e711]:
+            - generic [ref=f2e712]:
+              - heading "Crowd" [level=3] [ref=f2e713]
+              - generic [ref=f2e714]: ~ Our estimate
+            - paragraph [ref=f2e715]: Small crowd
+            - paragraph [ref=f2e716]: About 24 to 26 people came to the last two circles.
+          - listitem [ref=f2e717]:
+            - generic [ref=f2e718]:
+              - heading "Seating" [level=3] [ref=f2e719]
+              - generic [ref=f2e720]: ✓ Confirmed by host
+            - paragraph [ref=f2e721]: Seating
+            - paragraph [ref=f2e722]: Chairs with backs at every table; take a break anytime. - Lin, host
+          - listitem [ref=f2e723]:
+            - generic [ref=f2e724]:
+              - heading "Flashing lights" [level=3] [ref=f2e725]
+              - generic [ref=f2e726]: "? Not known yet"
+            - paragraph [ref=f2e727]: Not confirmed yet. Please ask the host before making plans.
+          - listitem [ref=f2e728]:
+            - generic [ref=f2e729]:
+              - heading "Quiet space" [level=3] [ref=f2e730]
+              - generic [ref=f2e731]: "? Not known yet"
+            - paragraph [ref=f2e732]: Not confirmed yet. Please ask the host before making plans.
+        - group [ref=f2e733]:
+          - generic "All access details by need" [ref=f2e734] [cursor=pointer]
+        - generic [ref=f2e735]:
+          - generic [ref=f2e736]: You never need to tell us why. Choose only what would help.
+          - link "Ask the host ↓" [ref=f2e737] [cursor=pointer]:
+            - /url: "#conv-h"
+      - generic [ref=f2e738]:
+        - generic [ref=f2e739]:
+          - region [ref=f2e740]:
+            - heading "About this event" [level=2] [ref=f2e741]
+            - paragraph [ref=f2e742]: Bring one item of clothing to mend. Needles, thread and scraps are shared. Beginners are welcome and a volunteer will help you get started.
+            - heading "How the time unfolds" [level=3] [ref=f2e743]
+            - list [ref=f2e744]:
+              - listitem [ref=f2e745]:
+                - generic [ref=f2e746]: 1:00 pm
+                - strong [ref=f2e747]: Settle in
+                - generic [ref=f2e748]: A hello, a seat and a cup of tea.
+              - listitem [ref=f2e749]:
+                - generic [ref=f2e750]: 1:15 pm
+                - strong [ref=f2e751]: Make and mend
+                - generic [ref=f2e752]: Learn at your own pace, together.
+              - listitem [ref=f2e753]:
+                - generic [ref=f2e754]: 2:45 pm
+                - strong [ref=f2e755]: Share and wrap up
+                - generic [ref=f2e756]: Show a stitch. Help tidy the table.
+            - paragraph [ref=f2e757]:
+              - generic [ref=f2e760]: Prefer to ask privately? Message the host about anything that would help you take part.
+          - region [ref=f2e761]:
+            - heading "Find your next date" [level=2] [ref=f2e762]
+            - list [ref=f2e763]:
+              - listitem [ref=f2e764]:
+                - generic [aria-hidden] [ref=f2e765]:
+                  - generic [ref=f2e766]: NOV
+                  - strong [ref=f2e767]: "7"
+                - generic [ref=f2e768]:
+                  - strong [ref=f2e769]: Saturday, November 7, 2026
+                  - generic [ref=f2e770]: 1:00 p.m. · Unionville Library · 8 spots left
+                - button "✓ Selected" [pressed] [ref=f2e771]
+              - listitem [ref=f2e772]:
+                - generic [aria-hidden] [ref=f2e773]:
+                  - generic [ref=f2e774]: DEC
+                  - strong [ref=f2e775]: "5"
+                - generic [ref=f2e776]:
+                  - strong [ref=f2e777]: Saturday, December 5, 2026
+                  - generic [ref=f2e778]: 1:00 p.m. · Unionville Library · 19 spots left
+                - button "Choose date" [ref=f2e779] [cursor=pointer]
+            - heading "Past gatherings" [level=3] [ref=f2e780]
+            - list [ref=f2e781]:
+              - listitem [ref=f2e782]:
+                - generic [ref=f2e783]: Saturday, October 3, 2026
+                - generic [ref=f2e786]: 26 neighbours joined
+              - listitem [ref=f2e787]:
+                - generic [ref=f2e788]: Saturday, September 5, 2026
+                - generic [ref=f2e791]: 24 neighbours joined
+          - region [ref=f2e792]:
+            - generic [ref=f2e793]:
+              - heading "A conversation before you come" [level=2] [ref=f2e794]
+              - generic [ref=f2e795]: 5 comments
+            - generic [ref=f2e796]:
+              - paragraph [ref=f2e797]:
+                - strong [ref=f2e801]: AI summary of the comments
+              - paragraph [ref=f2e802]: "Solo beginners are welcome and sewing supplies are shared. The host confirms a step-free entrance and an accessible washroom on the main floor. Still open: is there a separate quiet room?"
+              - paragraph [ref=f2e803]: Awaiting a host reply (1)
+              - paragraph [ref=f2e807]: AI can miss details. Read the comments or ask the host.
+            - list [ref=f2e808]:
+              - listitem [ref=f2e809]:
+                - generic [aria-hidden] [ref=f2e810]: MR
+                - generic [ref=f2e811]:
+                  - paragraph [ref=f2e812]:
+                    - strong [ref=f2e813]: Maya R.
+                    - generic [ref=f2e814]: Oct 23
+                  - paragraph [ref=f2e815]: I'm new to Markham and haven't sewn before. Is it okay to come on my own, and do I need to buy supplies?
+                  - generic [ref=f2e816]:
+                    - button "Reply" [ref=f2e817] [cursor=pointer]
+                    - button "Helpful (4)" [ref=f2e818] [cursor=pointer]
+                  - list [ref=f2e821]:
+                    - listitem [ref=f2e822]:
+                      - generic [aria-hidden] [ref=f2e823]: LC
+                      - generic [ref=f2e824]:
+                        - paragraph [ref=f2e825]:
+                          - strong [ref=f2e826]: Lin Chen
+                          - generic [ref=f2e827]: Host
+                          - generic [ref=f2e828]: Oct 23
+                        - paragraph [ref=f2e829]: Absolutely, come on your own! We'll introduce you around. Needles, thread and scraps are shared, just bring one clean item you'd like to mend.
+                        - generic [ref=f2e830]:
+                          - button "Reply" [ref=f2e831] [cursor=pointer]
+                          - button "Helpful (6)" [ref=f2e832] [cursor=pointer]
+              - listitem [ref=f2e835]:
+                - generic [aria-hidden] [ref=f2e836]: AP
+                - generic [ref=f2e837]:
+                  - paragraph [ref=f2e838]:
+                    - strong [ref=f2e839]: Arun P.
+                    - generic [ref=f2e840]: Oct 23
+                  - paragraph [ref=f2e841]: Could you confirm whether the entrance is step-free and there is an accessible washroom? Thanks for making this easier to plan.
+                  - generic [ref=f2e842]:
+                    - button "Reply" [ref=f2e843] [cursor=pointer]
+                    - button "Helpful (9)" [ref=f2e844] [cursor=pointer]
+                  - list [ref=f2e847]:
+                    - listitem [ref=f2e848]:
+                      - generic [aria-hidden] [ref=f2e849]: LC
+                      - generic [ref=f2e850]:
+                        - paragraph [ref=f2e851]:
+                          - strong [ref=f2e852]: Lin Chen
+                          - generic [ref=f2e853]: Host
+                          - generic [ref=f2e854]: Oct 24
+                        - paragraph [ref=f2e855]: The entrance is step-free, and there's an accessible washroom on the main floor. I'll be at the entrance if you'd like help finding the room.
+                        - generic [ref=f2e856]:
+                          - button "Reply" [ref=f2e857] [cursor=pointer]
+                          - button "Helpful (11)" [ref=f2e858] [cursor=pointer]
+              - listitem [ref=f2e861]:
+                - generic [aria-hidden] [ref=f2e862]: SL
+                - generic [ref=f2e863]:
+                  - paragraph [ref=f2e864]:
+                    - strong [ref=f2e865]: Sofia L.
+                    - generic [ref=f2e866]: Oct 24
+                  - paragraph [ref=f2e867]: This sounds lovely. Is there a separate quiet room, and when does the room tend to be busiest?
+                  - generic [ref=f2e868]:
+                    - button "Reply" [ref=f2e869] [cursor=pointer]
+                    - button "Helpful (2)" [ref=f2e870] [cursor=pointer]
+            - generic [ref=f2e873]:
+              - strong [ref=f2e875]: Join the conversation
+              - textbox "Join the conversation" [ref=f2e876]:
+                - /placeholder: Ask about the gathering, or say hello to your neighbours...
+              - generic [ref=f2e877]:
+                - generic [ref=f2e878]: Be kind. Keep personal information private.
+                - button "Post comment" [ref=f2e879] [cursor=pointer]
+        - complementary [ref=f2e880]:
+          - region [ref=f2e881]:
+            - heading "Meet here" [level=2] [ref=f2e882]
+            - paragraph [ref=f2e886]:
+              - strong [ref=f2e887]: Unionville Library
+              - text: Meeting room, main floor15 Library Lane, Markham
+            - separator [ref=f2e888]
+            - paragraph [ref=f2e889]: Use the main entrance on Library Lane. Look for Lin and the mending table signs just inside.
+            - paragraph [ref=f2e890]: About 29 min by Transit from Markham Village
+            - list [ref=f2e891]:
+              - listitem [ref=f2e892]: "Nearest stop: Unionville Main St, 350 m away"
+              - listitem [ref=f2e893]: "Routes: YRT 6, Viva Purple"
+              - listitem [ref=f2e894]: Free parking
+            - link "Open in maps" [ref=f2e895] [cursor=pointer]:
+              - /url: https://www.openstreetmap.org/?mlat=43.8553&mlon=-79.3126#map=17/43.8553/-79.3126
+          - region [ref=f2e898]:
+            - heading "Lend a hand" [level=2] [ref=f2e899]
+            - generic [ref=f2e902]:
+              - strong [ref=f2e903]: Welcome helper
+              - paragraph [ref=f2e904]: Nov 7, 12:30 to 3:00 pm
+              - paragraph [ref=f2e905]: Set out supplies, greet neighbours and help them find a seat.
+            - paragraph [ref=f2e906]: 1 of 2 helper spots available
+            - button "Sign up to volunteer" [ref=f2e910] [cursor=pointer]
+          - region [ref=f2e913]:
+            - heading "A familiar face when you arrive" [level=2] [ref=f2e914]
+            - generic [ref=f2e916]:
+              - strong [ref=f2e917]: Lin Chen
+              - generic [ref=f2e918]: Event host
+            - paragraph [ref=f2e921]:
+              - strong [ref=f2e922]: Thread & Neighbour Collective
+              - text: A small group of local menders bringing neighbours together, one shared table at a time.
+            - paragraph [ref=f2e923]: English · 普通话
+            - link "Message the host" [ref=f2e924] [cursor=pointer]:
+              - /url: "#conv-h"
+          - generic [ref=f2e927]:
+            - paragraph [ref=f2e928]: A note from Lin
+            - blockquote [ref=f2e931]: “Chairs with backs at every table; take a break anytime.”
+          - generic [ref=f2e932]:
+            - heading "Your comfort matters." [level=2] [ref=f2e935]
+            - paragraph [ref=f2e936]: Prefer to ask privately? Message the host about anything that would help you take part. Share only what you are comfortable sharing.
+            - link "Ask a private question" [ref=f2e937] [cursor=pointer]:
+              - /url: "#conv-h"
+          - paragraph [ref=f2e940]: Something not right? Report this listing
+  - contentinfo [ref=f2e595]:
+    - generic [ref=f2e596]:
+      - generic [ref=f2e597]:
+        - strong [ref=f2e600]: TodoMarkham
+        - generic [ref=f2e601]: Events in Markham that fit you.
+      - generic [ref=f2e602]: Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [ref=f2e603] [cursor=pointer]

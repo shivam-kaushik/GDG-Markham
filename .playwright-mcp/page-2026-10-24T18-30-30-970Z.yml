@@ -1,0 +1,361 @@
+- generic [ref=f2e2]:
+  - link "Skip to content" [ref=f2e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "TodoMarkham" [ref=f2e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=f2e12]:
+        - link "Explore" [ref=f2e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=f2e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=f2e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=f2e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=f2e17] [cursor=pointer]:
+          - /url: "#/saved"
+        - link "About" [ref=f2e18] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=f2e19]:
+        - group "Mode" [ref=f2e20]:
+          - button "Participating" [pressed] [ref=f2e21] [cursor=pointer]
+          - button "Hosting" [ref=f2e22] [cursor=pointer]
+        - generic [ref=f2e23]:
+          - generic [ref=f2e27]: Language
+          - combobox "Language" [ref=f2e28]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=f2e29] [cursor=pointer]: A−
+        - button "Text size +" [ref=f2e30] [cursor=pointer]: A+
+        - link "My settings" [ref=f2e31] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=f2e32]:
+    - article [ref=f2e34]:
+      - generic [ref=f2e35]:
+        - navigation "Breadcrumb" [ref=f2e36]:
+          - link "Explore" [ref=f2e37] [cursor=pointer]:
+            - /url: "#/"
+          - generic [ref=f2e40]: Community
+          - generic [ref=f2e43]: Milliken Mills Community Centre
+        - generic [ref=f2e44]:
+          - button "Save" [ref=f2e45] [cursor=pointer]
+          - button "Share" [ref=f2e48] [cursor=pointer]
+      - paragraph [ref=f2e54]: Demo event. Details, sign-up and conversations are illustrative, not a live listing.
+      - generic [ref=f2e58]:
+        - generic [ref=f2e59]:
+          - generic [ref=f2e60]: Community
+          - generic [ref=f2e61]: From TodoMarkham
+        - heading "Quiet board games for seniors" [level=1] [ref=f2e62]
+        - paragraph [ref=f2e63]: Low-key table games, tea and conversation. Large-print cards and a calm room.
+        - paragraph [ref=f2e64]:
+          - generic [ref=f2e65]: Hosted by
+          - strong [ref=f2e66]: TodoMarkham
+          - generic [ref=f2e67]: ·
+          - text: English · 廣東話 · 普通话
+      - generic [ref=f2e71]:
+        - figure [ref=f2e72]
+        - generic [ref=f2e73]:
+          - paragraph [ref=f2e75]: Free
+          - list [ref=f2e76]:
+            - listitem [ref=f2e77]: Friday, October 30, 2026
+            - listitem [ref=f2e81]: 2:00 p.m. – 4:00 p.m.
+            - listitem [ref=f2e85]: Milliken Mills Community Centre
+          - button "Join this event" [ref=f2e89] [cursor=pointer]
+          - link "View on TodoMarkham" [ref=f2e92] [cursor=pointer]:
+            - /url: "#"
+          - paragraph [ref=f2e95]:
+            - strong [ref=f2e96]: From TodoMarkham
+            - text: · No rating yet · Checked Oct 24
+          - paragraph [ref=f2e97]: Tickets and payment are handled by TodoMarkham.
+      - generic [ref=f2e98]:
+        - strong [ref=f2e99]: Why this fits you
+        - list [ref=f2e100]:
+          - listitem [ref=f2e101]: It is free
+          - listitem [ref=f2e102]: About 29 min by Transit
+          - listitem [ref=f2e103]: Step-free entrance, confirmed by the host
+      - region [ref=f2e104]:
+        - generic [ref=f2e105]:
+          - generic [ref=f2e106]:
+            - heading "What to expect" [level=2] [ref=f2e107]
+            - paragraph [ref=f2e108]: A little more certainty before you go.
+          - generic [ref=f2e109]: Host details updated Oct 24, 2026
+        - list [ref=f2e112]:
+          - listitem [ref=f2e113]:
+            - generic [ref=f2e114]:
+              - heading "Accessibility" [level=3] [ref=f2e115]
+              - generic [ref=f2e116]: ✓ Confirmed by host
+            - paragraph [ref=f2e117]: Step-free entrance, Accessible washroom
+          - listitem [ref=f2e118]:
+            - generic [ref=f2e119]:
+              - heading "Noise" [level=3] [ref=f2e120]
+              - generic [ref=f2e121]: ✓ Confirmed by host
+            - paragraph [ref=f2e122]: Quiet setting
+          - listitem [ref=f2e123]:
+            - generic [ref=f2e124]:
+              - heading "Crowd" [level=3] [ref=f2e125]
+              - generic [ref=f2e126]: ✓ Confirmed by host
+            - paragraph [ref=f2e127]: Small crowd
+            - paragraph [ref=f2e128]: Limited to 16 people.
+          - listitem [ref=f2e129]:
+            - generic [ref=f2e130]:
+              - heading "Seating" [level=3] [ref=f2e131]
+              - generic [ref=f2e132]: ✓ Confirmed by host
+            - paragraph [ref=f2e133]: Seating
+          - listitem [ref=f2e134]:
+            - generic [ref=f2e135]:
+              - heading "Flashing lights" [level=3] [ref=f2e136]
+              - generic [ref=f2e137]: ✓ Confirmed by host
+            - paragraph [ref=f2e138]: No flashing lights
+          - listitem [ref=f2e139]:
+            - generic [ref=f2e140]:
+              - heading "Quiet space" [level=3] [ref=f2e141]
+              - generic [ref=f2e142]: ✓ Confirmed by host
+            - paragraph [ref=f2e143]: Quiet space
+            - paragraph [ref=f2e144]: A calm side room is available.
+        - group [ref=f2e145]:
+          - generic "All access details by need" [ref=f2e146] [cursor=pointer]
+        - generic [ref=f2e147]:
+          - generic [ref=f2e148]: You never need to tell us why. Choose only what would help.
+          - link "Ask the host ↓" [ref=f2e149] [cursor=pointer]:
+            - /url: "#conv-h"
+      - generic [ref=f2e150]:
+        - generic [ref=f2e151]:
+          - region [ref=f2e152]:
+            - heading "About this event" [level=2] [ref=f2e153]
+            - paragraph [ref=f2e154]: Low-key table games, tea and conversation. Large-print cards and a calm room.
+            - paragraph [ref=f2e155]:
+              - generic [ref=f2e158]: Prefer to ask privately? Message the host about anything that would help you take part.
+          - region [ref=f2e159]:
+            - heading "What neighbours say" [level=2] [ref=f2e160]
+            - generic [ref=f2e161]:
+              - generic [ref=f2e162]:
+                - paragraph [ref=f2e163]: Neighbours rating
+                - paragraph [ref=f2e164]:
+                  - text: "5.0"
+                  - img "5 stars" [ref=f2e165]
+                - paragraph [ref=f2e176]: 2 reviews from people who attended
+                - list [aria-hidden] [ref=f2e177]:
+                  - listitem [ref=f2e178]:
+                    - generic [ref=f2e179]: "5"
+                  - listitem [ref=f2e181]:
+                    - generic [ref=f2e182]: "4"
+                  - listitem [ref=f2e184]:
+                    - generic [ref=f2e185]: "3"
+                  - listitem [ref=f2e187]:
+                    - generic [ref=f2e188]: "2"
+                  - listitem [ref=f2e190]:
+                    - generic [ref=f2e191]: "1"
+              - generic [ref=f2e193]:
+                - paragraph [ref=f2e194]: Rating on TodoMarkham
+                - paragraph [ref=f2e195]: No rating yet
+            - list [ref=f2e196]:
+              - listitem [ref=f2e197]:
+                - generic [ref=f2e198]:
+                  - strong [ref=f2e199]: Margaret T.
+                  - generic [ref=f2e200]: Attended · Oct 2026
+                - img "5 stars" [ref=f2e201]
+                - paragraph [ref=f2e212]: Large-print cards and a calm room. My father smiled the whole time.
+              - listitem [ref=f2e213]:
+                - generic [ref=f2e214]:
+                  - strong [ref=f2e215]: Alice F.
+                  - generic [ref=f2e216]: Attended · Oct 2026
+                - img "5 stars" [ref=f2e217]
+                - paragraph [ref=f2e228]: Predictable and gentle. Exactly what we needed for my mother.
+          - region [ref=f2e229]:
+            - generic [ref=f2e230]:
+              - heading "A conversation before you come" [level=2] [ref=f2e231]
+              - generic [ref=f2e232]: 4 comments
+            - generic [ref=f2e233]:
+              - paragraph [ref=f2e234]:
+                - strong [ref=f2e238]: AI summary of the comments
+              - paragraph [ref=f2e239]: "3 neighbours replied. Most helpful: \"Yes, there are two accessible spots by the main door and the room has no steps. Large-print cards are provided.\""
+              - paragraph [ref=f2e240]: AI can miss details. Read the comments or ask the host.
+            - list [ref=f2e241]:
+              - listitem [ref=f2e242]:
+                - generic [aria-hidden] [ref=f2e243]: MT
+                - generic [ref=f2e244]:
+                  - paragraph [ref=f2e245]:
+                    - strong [ref=f2e246]: Margaret T.
+                    - generic [ref=f2e247]: Oct 16
+                  - paragraph [ref=f2e248]: My father is 82 and uses a walker. Is there accessible parking?
+                  - generic [ref=f2e249]:
+                    - button "Reply" [ref=f2e250] [cursor=pointer]
+                    - button "Helpful (13)" [ref=f2e251] [cursor=pointer]
+                  - list [ref=f2e254]:
+                    - listitem [ref=f2e255]:
+                      - generic [aria-hidden] [ref=f2e256]: LC
+                      - generic [ref=f2e257]:
+                        - paragraph [ref=f2e258]:
+                          - strong [ref=f2e259]: Lin Chen
+                          - generic [ref=f2e260]: Host
+                          - generic [ref=f2e261]: Oct 17
+                        - paragraph [ref=f2e262]: Yes, there are two accessible spots by the main door and the room has no steps. Large-print cards are provided.
+                        - generic [ref=f2e263]:
+                          - button "Reply" [ref=f2e264] [cursor=pointer]
+                          - button "Helpful (17)" [ref=f2e265] [cursor=pointer]
+              - listitem [ref=f2e268]:
+                - generic [aria-hidden] [ref=f2e269]: AF
+                - generic [ref=f2e270]:
+                  - paragraph [ref=f2e271]:
+                    - strong [ref=f2e272]: Alice F.
+                    - generic [ref=f2e273]: Oct 18
+                  - paragraph [ref=f2e274]: Is it only for seniors? I am 58.
+                  - generic [ref=f2e275]:
+                    - button "Reply" [ref=f2e276] [cursor=pointer]
+                    - button "Helpful (4)" [ref=f2e277] [cursor=pointer]
+                  - list [ref=f2e280]:
+                    - listitem [ref=f2e281]:
+                      - generic [aria-hidden] [ref=f2e282]: LC
+                      - generic [ref=f2e283]:
+                        - paragraph [ref=f2e284]:
+                          - strong [ref=f2e285]: Lin Chen
+                          - generic [ref=f2e286]: Host
+                          - generic [ref=f2e287]: Oct 18
+                        - paragraph [ref=f2e288]: Everyone over 55 is welcome. Caregivers of any age come free.
+                        - generic [ref=f2e289]:
+                          - button "Reply" [ref=f2e290] [cursor=pointer]
+                          - button "Helpful (7)" [ref=f2e291] [cursor=pointer]
+            - generic [ref=f2e294]:
+              - strong [ref=f2e296]: Join the conversation
+              - textbox "Join the conversation" [ref=f2e297]:
+                - /placeholder: Ask about the gathering, or say hello to your neighbours...
+              - generic [ref=f2e298]:
+                - generic [ref=f2e299]: Be kind. Keep personal information private.
+                - button "Post comment" [ref=f2e300] [cursor=pointer]
+        - complementary [ref=f2e301]:
+          - region [ref=f2e302]:
+            - heading "Meet here" [level=2] [ref=f2e303]
+            - paragraph [ref=f2e307]:
+              - strong [ref=f2e308]: Milliken Mills Community Centre
+              - text: 7600 Kennedy Rd, Markham
+            - separator [ref=f2e309]
+            - paragraph [ref=f2e310]: About 29 min by Transit from Woodbine / Denison
+            - list [ref=f2e311]:
+              - listitem [ref=f2e312]: "Nearest stop: Kennedy at Steeles, 200 m away"
+              - listitem [ref=f2e313]: "Routes: YRT 24, Viva Orange"
+              - listitem [ref=f2e314]: Free parking
+            - link "Open in maps" [ref=f2e315] [cursor=pointer]:
+              - /url: https://www.openstreetmap.org/?mlat=43.8236&mlon=-79.2893#map=17/43.8236/-79.2893
+          - region [ref=f2e318]:
+            - heading "A familiar face when you arrive" [level=2] [ref=f2e319]
+            - generic [ref=f2e320]:
+              - generic [ref=f2e321]: T
+              - generic [ref=f2e322]:
+                - strong [ref=f2e323]: TodoMarkham
+                - generic [ref=f2e324]: Event host
+            - paragraph [ref=f2e327]:
+              - strong [ref=f2e328]: TodoMarkham
+            - paragraph [ref=f2e329]: English · 廣東話 · 普通话
+            - link "Message the host" [ref=f2e330] [cursor=pointer]:
+              - /url: "#conv-h"
+          - generic [ref=f2e333]:
+            - heading "Your comfort matters." [level=2] [ref=f2e336]
+            - paragraph [ref=f2e337]: Prefer to ask privately? Message the host about anything that would help you take part. Share only what you are comfortable sharing.
+            - link "Ask a private question" [ref=f2e338] [cursor=pointer]:
+              - /url: "#conv-h"
+          - paragraph [ref=f2e341]: Something not right? Report this listing
+  - contentinfo [ref=f2e344]:
+    - generic [ref=f2e345]:
+      - generic [ref=f2e346]:
+        - strong [ref=f2e349]: TodoMarkham
+        - generic [ref=f2e350]: Events in Markham that fit you.
+      - generic [ref=f2e351]:
+        - link "About" [ref=f2e352] [cursor=pointer]:
+          - /url: "#/about"
+        - text: · Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [expanded] [ref=f2e353] [cursor=pointer]
+  - dialog "Ask Maple" [ref=f2e360]:
+    - generic [ref=f2e361]:
+      - generic [ref=f2e368]:
+        - strong [ref=f2e369]: Maple
+        - text: Your event guide
+      - button "Close" [ref=f2e370] [cursor=pointer]
+    - generic [ref=f2e373]:
+      - generic [ref=f2e374]:
+        - generic "Maple runs without a model key here. It still understands your words and uses the same tools." [ref=f2e375]: Offline AI mode
+        - generic [ref=f2e379]:
+          - checkbox "Read replies aloud" [ref=f2e380]
+          - text: Read replies aloud
+      - log "Chat with Maple" [ref=f2e381]:
+        - generic [ref=f2e388]:
+          - paragraph [ref=f2e389]: Hello! Tell me what you are looking for, or what would help you feel comfortable.
+          - group "Quick answers" [ref=f2e391]:
+            - button "Free this weekend" [ref=f2e392] [cursor=pointer]
+            - button "Quiet and step-free" [ref=f2e393] [cursor=pointer]
+            - button "Without a car" [ref=f2e394] [cursor=pointer]
+            - button "Something for the family" [ref=f2e395] [cursor=pointer]
+            - button "Volunteer near me" [ref=f2e396] [cursor=pointer]
+        - paragraph [ref=f2e399]: I use a wheelchair, show me free things
+        - generic [ref=f2e406]:
+          - paragraph [ref=f2e407]: I found 5 events that fit. The best match is Local artists open studio afternoon.
+          - generic [ref=f2e408]:
+            - generic [ref=f2e409]: "I understood:"
+            - generic [ref=f2e410]:
+              - generic [ref=f2e411]:
+                - text: Free
+                - button "Remove Free" [ref=f2e412] [cursor=pointer]
+              - generic [ref=f2e415]:
+                - text: Step-free entrance (I need this)
+                - button "Remove Step-free entrance (I need this)" [ref=f2e416] [cursor=pointer]
+          - list [ref=f2e419]:
+            - listitem [ref=f2e420]:
+              - link "Local artists open studio afternoon" [ref=f2e421] [cursor=pointer]:
+                - /url: "#/event/open-studio"
+              - generic [ref=f2e422]: Sunday, November 15, 1:00 p.m. – 5:00 p.m. · Unionville Main Street
+              - generic [ref=f2e423]:
+                - generic [ref=f2e424]: Free
+                - generic [ref=f2e425]: Strong match
+                - generic [ref=f2e426]: 16 min
+                - generic [ref=f2e427]: Eventbrite ★ 4.8
+                - generic [ref=f2e428]: Neighbours rating ★ 4.5
+              - generic [ref=f2e429]:
+                - strong [ref=f2e430]: Why this fits you
+                - list [ref=f2e431]:
+                  - listitem [ref=f2e432]: You enjoy Arts
+                  - listitem [ref=f2e433]: It is free
+                  - listitem [ref=f2e434]: About 16 min by Transit
+            - listitem [ref=f2e435]:
+              - link "Tamil folk music evening" [ref=f2e436] [cursor=pointer]:
+                - /url: "#/event/tamil-music"
+              - generic [ref=f2e437]: Friday, November 6, 6:30 p.m. – 8:30 p.m. · Markham Civic Centre
+              - generic [ref=f2e438]:
+                - generic [ref=f2e439]: $15
+                - generic [ref=f2e440]: Strong match
+                - generic [ref=f2e441]: 11 min
+                - generic [ref=f2e442]: Eventbrite ★ 4.8
+                - generic [ref=f2e443]: Neighbours rating ★ 5.0
+              - generic [ref=f2e444]:
+                - strong [ref=f2e445]: Why this fits you
+                - list [ref=f2e446]:
+                  - listitem [ref=f2e447]: You enjoy Music
+                  - listitem [ref=f2e448]: About 11 min by Transit
+            - listitem [ref=f2e449]:
+              - link "A little clay, a little creativity" [ref=f2e450] [cursor=pointer]:
+                - /url: "#/event/clay-night"
+              - generic [ref=f2e451]: Tuesday, October 27, 6:00 p.m. – 8:00 p.m. · Local art studio, Unionville
+              - generic [ref=f2e452]:
+                - generic [ref=f2e453]: $25
+                - generic [ref=f2e454]: Strong match
+                - generic [ref=f2e455]: 17 min
+                - generic [ref=f2e456]: Eventbrite ★ 4.7
+                - generic [ref=f2e457]: Neighbours rating ★ 4.0
+              - generic [ref=f2e458]:
+                - strong [ref=f2e459]: Why this fits you
+                - list [ref=f2e460]:
+                  - listitem [ref=f2e461]: You enjoy Arts
+                  - listitem [ref=f2e462]: About 17 min by Transit
+          - status [ref=f2e464]: Saved. You can change this in My settings.
+          - group [ref=f2e465]:
+            - generic "How I decided" [ref=f2e466] [cursor=pointer]
+      - generic [ref=f2e467]:
+        - generic [ref=f2e468]: Type here, or tap the microphone
+        - textbox "Type here, or tap the microphone" [ref=f2e469]
+        - button "Speak" [ref=f2e470] [cursor=pointer]
+        - button [disabled] [ref=f2e474]
+      - status [ref=f2e477]

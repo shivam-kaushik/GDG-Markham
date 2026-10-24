@@ -1,0 +1,36 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - strong [ref=e9]: TodoMarkham
+    - button "Skip, show all events" [ref=e10] [cursor=pointer]
+  - main [active] [ref=e11]:
+    - region "Chat with Maple" [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic "Maple runs without a model key here. It still understands your words and uses the same tools." [ref=e15]: Offline AI mode
+          - generic [ref=e19]:
+            - checkbox "Read replies aloud" [ref=e20]
+            - text: Read replies aloud
+        - log "Chat with Maple" [ref=e21]:
+          - generic [ref=e28]:
+            - paragraph [ref=e29]: Hi, I am Maple. Tell me what you enjoy, who you go with and how you get around. You can type, talk or tap an idea.
+            - generic "Quick answers" [ref=e30]:
+              - button "I love music and community events" [ref=e31] [cursor=pointer]
+              - button "I use a wheelchair" [ref=e32] [cursor=pointer]
+              - button "I do not drive" [ref=e33] [cursor=pointer]
+              - button "I go with my kids" [ref=e34] [cursor=pointer]
+              - button "I get migraines from flashing lights" [ref=e35] [cursor=pointer]
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: When are you usually free?
+            - generic [ref=e44]:
+              - paragraph [ref=e45]: I am asking this because it changes your picks more than anything else.
+              - group "Quick answers" [ref=e46]:
+                - button "Weekdays" [ref=e47] [cursor=pointer]
+                - button "Evenings" [ref=e48] [cursor=pointer]
+                - button "Weekends" [ref=e49] [cursor=pointer]
+        - button "See my picks" [ref=e51] [cursor=pointer]
+        - generic [ref=e55]:
+          - generic [ref=e56]: Type here, or tap the microphone
+          - textbox "Type here, or tap the microphone" [ref=e57]
+          - button "Speak" [ref=e58] [cursor=pointer]
+          - button "Send" [disabled] [ref=e63]
+        - status [ref=e67]

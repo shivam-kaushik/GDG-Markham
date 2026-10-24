@@ -1,0 +1,216 @@
+- generic [ref=e2]:
+  - link "跳到主要内容" [ref=e69] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e70]:
+    - generic [ref=e71]:
+      - link "TodoMarkham" [ref=e72] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=e78]:
+        - link "浏览活动" [ref=e79] [cursor=pointer]:
+          - /url: "#/"
+        - link "为您推荐" [ref=e80] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "社区" [ref=e81] [cursor=pointer]:
+          - /url: "#/community"
+        - link "地图" [ref=e82] [cursor=pointer]:
+          - /url: "#/map"
+        - link "已收藏" [ref=e83] [cursor=pointer]:
+          - /url: "#/saved"
+        - link "关于我们" [ref=e84] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=e85]:
+        - group "Mode" [ref=e86]:
+          - button "参加者" [pressed] [ref=e87] [cursor=pointer]
+          - button "主办者" [ref=e88] [cursor=pointer]
+        - generic [ref=e89]:
+          - generic [ref=e93]: 语言
+          - combobox "语言" [ref=e94]:
+            - option "English"
+            - option "廣東話"
+            - option "普通话" [selected]
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "文字大小 −" [ref=e95] [cursor=pointer]: A−
+        - button "文字大小 +" [ref=e96] [cursor=pointer]: A+
+        - link "我的设置" [ref=e97] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=e98]:
+    - generic [ref=e100]:
+      - region [ref=e101]:
+        - generic [ref=e102]:
+          - paragraph [ref=e103]: TodoMarkham
+          - heading "关于 TodoMarkham" [level=1] [ref=e106]
+          - paragraph [ref=e107]: 一个安静的地方，帮您找到适合您的语言、身体状况、预算和出行方式的万锦活动。
+          - generic [ref=e108]:
+            - link "帮我找活动" [ref=e109] [cursor=pointer]:
+              - /url: "#/welcome"
+            - link "浏览全部活动" [ref=e113] [cursor=pointer]:
+              - /url: "#/"
+      - region [ref=e120]:
+        - heading "我们看到的问题" [level=2] [ref=e121]
+        - paragraph [ref=e122]: 万锦的活动分散在 Eventbrite、Luma、市政府、图书馆和社区团体。大多数信息不会告诉您有没有台阶、吵不吵、灯会不会闪，或活动结束时还有没有巴士。许多网站只有英文。人们只好猜，或者留在家里。
+      - region [ref=e123]:
+        - heading "TodoMarkham 如何帮助您" [level=2] [ref=e124]
+        - list [ref=e125]:
+          - listitem [ref=e126]:
+            - heading "一个地方看全部" [level=3] [ref=e131]
+            - paragraph [ref=e132]: 汇集多个来源的活动，每个都清楚标明来源和该平台上的评分。
+          - listitem [ref=e133]:
+            - heading "值得信赖的无障碍信息" [level=3] [ref=e137]
+            - paragraph [ref=e138]: 每项无障碍信息都标明是主办方确认、我们估计，还是暂时没人知道。“暂不清楚”绝不等于“没有”。
+          - listitem [ref=e139]:
+            - heading "用您的语言" [level=3] [ref=e143]
+            - paragraph [ref=e144]: 英语、广东话、普通话、泰米尔语和波斯语，并支持从右到左阅读。可用您的语言对 Maple 说话或打字。
+          - listitem [ref=e145]:
+            - heading "有车无车都能到" [level=3] [ref=e150]
+            - paragraph [ref=e151]: 查看开车、坐巴士或步行所需时间、最近车站，以及活动开始时是否有车。
+          - listitem [ref=e152]:
+            - heading "Maple，您的活动向导" [level=3] [ref=e157]
+            - paragraph [ref=e158]: 用语音或文字告诉 Maple 您喜欢什么，Maple 挑选活动并用简单的话说明原因。分数来自清楚的规则，而不是猜测。
+          - listitem [ref=e159]:
+            - heading "真正的社区" [level=3] [ref=e164]
+            - paragraph [ref=e165]: 出发前向主办方提问，阅读参加者的真实评价，并在社区论坛里互相帮助。
+      - region [ref=e166]:
+        - heading "适合谁" [level=2] [ref=e167]
+        - list [ref=e168]:
+          - listitem [ref=e169]:
+            - generic [ref=e172]: 想要清晰大字页面、坐着参加的安静活动的长者。
+          - listitem [ref=e173]:
+            - generic [ref=e176]: 想练习语言、认识邻居的新移民。
+          - listitem [ref=e177]:
+            - generic [ref=e180]: 需要提前按需求类型了解信息的残障人士。
+          - listitem [ref=e181]:
+            - generic [ref=e184]: 为全家安排一天的家庭和照顾者。
+          - listitem [ref=e185]:
+            - generic [ref=e188]: 想如实说明无障碍情况、吸引合适参加者的主办方和义工。
+      - region [ref=e189]:
+        - heading "与其他方式比较" [level=2] [ref=e190]
+        - paragraph [ref=e191]: 依据各类服务的公开功能整理。服务会变化，请以其最新信息为准。
+        - table [ref=e193]:
+          - caption [ref=e194]: 与其他方式比较
+          - rowgroup [ref=e195]:
+            - row [ref=e196]:
+              - columnheader "您能得到" [ref=e197]
+              - columnheader "TodoMarkham" [ref=e198]
+              - columnheader "售票网站" [ref=e199]
+              - columnheader "市政府与图书馆日历" [ref=e200]
+              - columnheader "社交媒体群组" [ref=e201]
+          - rowgroup [ref=e202]:
+            - row [ref=e203]:
+              - rowheader "多个来源的活动集中在一处" [ref=e204]
+              - cell "有" [ref=e205]:
+                - generic [ref=e206]: ✓ 有
+              - cell "部分" [ref=e207]:
+                - generic [ref=e208]: ~ 部分
+              - cell "通常没有" [ref=e209]:
+                - generic [ref=e210]: – 通常没有
+              - cell "部分" [ref=e211]:
+                - generic [ref=e212]: ~ 部分
+            - row [ref=e213]:
+              - rowheader "标明每个活动的来源和评分" [ref=e214]
+              - cell "有" [ref=e215]:
+                - generic [ref=e216]: ✓ 有
+              - cell "部分" [ref=e217]:
+                - generic [ref=e218]: ~ 部分
+              - cell "通常没有" [ref=e219]:
+                - generic [ref=e220]: – 通常没有
+              - cell "通常没有" [ref=e221]:
+                - generic [ref=e222]: – 通常没有
+            - row [ref=e223]:
+              - rowheader "无障碍信息标明已确认、估计或未知" [ref=e224]
+              - cell "有" [ref=e225]:
+                - generic [ref=e226]: ✓ 有
+              - cell "通常没有" [ref=e227]:
+                - generic [ref=e228]: – 通常没有
+              - cell "通常没有" [ref=e229]:
+                - generic [ref=e230]: – 通常没有
+              - cell "通常没有" [ref=e231]:
+                - generic [ref=e232]: – 通常没有
+            - row [ref=e233]:
+              - rowheader "按需求类型分类（行动、视觉、听觉、感官、理解）" [ref=e234]
+              - cell "有" [ref=e235]:
+                - generic [ref=e236]: ✓ 有
+              - cell "通常没有" [ref=e237]:
+                - generic [ref=e238]: – 通常没有
+              - cell "部分" [ref=e239]:
+                - generic [ref=e240]: ~ 部分
+              - cell "通常没有" [ref=e241]:
+                - generic [ref=e242]: – 通常没有
+            - row [ref=e243]:
+              - rowheader "界面和回复支持五种本地语言" [ref=e244]
+              - cell "有" [ref=e245]:
+                - generic [ref=e246]: ✓ 有
+              - cell "部分" [ref=e247]:
+                - generic [ref=e248]: ~ 部分
+              - cell "部分" [ref=e249]:
+                - generic [ref=e250]: ~ 部分
+              - cell "部分" [ref=e251]:
+                - generic [ref=e252]: ~ 部分
+            - row [ref=e253]:
+              - rowheader "语音输入" [ref=e254]
+              - cell "有" [ref=e255]:
+                - generic [ref=e256]: ✓ 有
+              - cell "通常没有" [ref=e257]:
+                - generic [ref=e258]: – 通常没有
+              - cell "通常没有" [ref=e259]:
+                - generic [ref=e260]: – 通常没有
+              - cell "通常没有" [ref=e261]:
+                - generic [ref=e262]: – 通常没有
+            - row [ref=e263]:
+              - rowheader "巴士时间、最近车站和活动开始时的服务" [ref=e264]
+              - cell "有" [ref=e265]:
+                - generic [ref=e266]: ✓ 有
+              - cell "通常没有" [ref=e267]:
+                - generic [ref=e268]: – 通常没有
+              - cell "部分" [ref=e269]:
+                - generic [ref=e270]: ~ 部分
+              - cell "通常没有" [ref=e271]:
+                - generic [ref=e272]: – 通常没有
+            - row [ref=e273]:
+              - rowheader "会解释原因的个性化推荐" [ref=e274]
+              - cell "有" [ref=e275]:
+                - generic [ref=e276]: ✓ 有
+              - cell "部分" [ref=e277]:
+                - generic [ref=e278]: ~ 部分
+              - cell "通常没有" [ref=e279]:
+                - generic [ref=e280]: – 通常没有
+              - cell "部分" [ref=e281]:
+                - generic [ref=e282]: ~ 部分
+            - row [ref=e283]:
+              - rowheader "可向主办方提问，并有社区论坛" [ref=e284]
+              - cell "有" [ref=e285]:
+                - generic [ref=e286]: ✓ 有
+              - cell "部分" [ref=e287]:
+                - generic [ref=e288]: ~ 部分
+              - cell "通常没有" [ref=e289]:
+                - generic [ref=e290]: – 通常没有
+              - cell "有" [ref=e291]:
+                - generic [ref=e292]: ✓ 有
+            - row [ref=e293]:
+              - rowheader "大字和高对比度模式" [ref=e294]
+              - cell "有" [ref=e295]:
+                - generic [ref=e296]: ✓ 有
+              - cell "通常没有" [ref=e297]:
+                - generic [ref=e298]: – 通常没有
+              - cell "部分" [ref=e299]:
+                - generic [ref=e300]: ~ 部分
+              - cell "通常没有" [ref=e301]:
+                - generic [ref=e302]: – 通常没有
+      - region [ref=e303]:
+        - heading "我们的承诺" [level=2] [ref=e304]
+        - list [ref=e305]:
+          - listitem [ref=e306]: 我们如实标明已知信息。已确认、估计和未知绝不混淆。
+          - listitem [ref=e307]: 在此原型中，您的回答只保存在您的设备上，绝不用于广告，并可随时删除。
+          - listitem [ref=e308]: AI 负责解释，规则负责决定。分数来自清楚的规则，Maple 只会推荐清单中的真实活动。
+      - paragraph [ref=e309]: TodoMarkham 是黑客松原型。本站的活动、评分和对话都是示例。
+  - contentinfo [ref=e313]:
+    - generic [ref=e314]:
+      - generic [ref=e315]:
+        - strong [ref=e318]: TodoMarkham
+        - generic [ref=e319]: 适合您的万锦活动。
+      - generic [ref=e320]:
+        - link "关于我们" [ref=e321] [cursor=pointer]:
+          - /url: "#/about"
+        - text: · 为万锦而做，与万锦市政府无关。
+  - button "问问 Maple" [ref=e322] [cursor=pointer]

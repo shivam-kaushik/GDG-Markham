@@ -1,0 +1,1067 @@
+- generic [ref=f1e2]:
+  - link "Skip to content" [ref=f1e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "TodoMarkham" [ref=f1e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=f1e12]:
+        - link "Explore" [ref=f1e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=f1e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=f1e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=f1e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=f1e17] [cursor=pointer]:
+          - /url: "#/saved"
+        - link "About" [ref=f1e18] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=f1e19]:
+        - group "Mode" [ref=f1e20]:
+          - button "Participating" [pressed] [ref=f1e21] [cursor=pointer]
+          - button "Hosting" [ref=f1e22] [cursor=pointer]
+        - generic [ref=f1e23]:
+          - generic [ref=f1e27]: Language
+          - combobox "Language" [ref=f1e28]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=f1e29] [cursor=pointer]: A−
+        - button "Text size +" [ref=f1e30] [cursor=pointer]: A+
+        - link "My settings" [ref=f1e31] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=f1e32]:
+    - generic [ref=f1e34]:
+      - region [ref=f1e35]:
+        - generic [ref=f1e36]:
+          - paragraph [ref=f1e37]: MARKHAM, ONTARIO
+          - heading "Find your place in Markham." [level=1] [ref=f1e41]
+          - paragraph [ref=f1e42]: Meet your neighbours. Try something new. Make a little time for local.
+          - search [ref=f1e43]:
+            - generic [ref=f1e47]: Search events
+            - searchbox "Search events" [ref=f1e48]
+            - button "Search events" [ref=f1e49] [cursor=pointer]
+          - generic [ref=f1e50]:
+            - generic [ref=f1e51]: A place to start
+            - button "This weekend" [ref=f1e52] [cursor=pointer]
+            - button "Free events" [ref=f1e53] [cursor=pointer]
+            - button "Newcomer-friendly" [ref=f1e54] [cursor=pointer]
+        - generic [ref=f1e56]:
+          - generic [ref=f1e57]: Confirmed by host
+          - generic [ref=f1e60]: ★ 4.8 Eventbrite
+          - generic [ref=f1e61]: 12 min
+      - generic [ref=f1e65]:
+        - complementary "Filters" [ref=f1e66]:
+          - generic [ref=f1e67]:
+            - heading "Make it your own" [level=2] [ref=f1e68]
+            - generic [ref=f1e71]:
+              - group "When" [ref=f1e72]:
+                - combobox "When" [ref=f1e74]:
+                  - option "Any time" [selected]
+                  - option "Next 7 days"
+                  - option "Weekend"
+              - group "Cost" [ref=f1e75]:
+                - generic [ref=f1e77]:
+                  - checkbox "Free only" [ref=f1e78]
+                  - text: Free only
+              - group "Event language" [ref=f1e79]:
+                - combobox "Event language" [ref=f1e81]:
+                  - option "Any" [selected]
+                  - option "English"
+                  - option "廣東話"
+                  - option "普通话"
+                  - option "தமிழ்"
+                  - option "فارسی"
+              - group "Where it is listed" [ref=f1e82]:
+                - generic [ref=f1e84]:
+                  - checkbox "Eventbrite" [ref=f1e85]
+                  - text: Eventbrite
+                - generic [ref=f1e86]:
+                  - checkbox "Luma" [ref=f1e87]
+                  - text: Luma
+                - generic [ref=f1e88]:
+                  - checkbox "City of Markham" [ref=f1e89]
+                  - text: City of Markham
+                - generic [ref=f1e90]:
+                  - checkbox "Markham Public Library" [ref=f1e91]
+                  - text: Markham Public Library
+                - generic [ref=f1e92]:
+                  - checkbox "TodoMarkham" [ref=f1e93]
+                  - text: TodoMarkham
+              - group "Rating on the platform" [ref=f1e94]:
+                - combobox "Rating on the platform" [ref=f1e96]:
+                  - option "Any rating" [selected]
+                  - option "★ 4.0+"
+                  - option "★ 4.5+"
+              - group "How to take part" [ref=f1e97]:
+                - generic [ref=f1e99]:
+                  - checkbox "Volunteer" [ref=f1e100]
+                  - text: Volunteer
+              - group "Getting there" [ref=f1e101]:
+                - generic [ref=f1e103]:
+                  - checkbox "Reachable by bus or train" [ref=f1e104]
+                  - text: Reachable by bus or train
+              - separator [ref=f1e105]
+              - group "What would help you" [ref=f1e106]:
+                - generic [ref=f1e108]:
+                  - strong [ref=f1e109]: Getting around
+                  - generic [ref=f1e110]:
+                    - checkbox "Step-free entrance" [ref=f1e111]
+                    - text: Step-free entrance
+                  - generic [ref=f1e112]:
+                    - checkbox "Accessible washroom" [ref=f1e113]
+                    - text: Accessible washroom
+                  - generic [ref=f1e114]:
+                    - checkbox "Accessible parking" [ref=f1e115]
+                    - text: Accessible parking
+                  - generic [ref=f1e116]:
+                    - checkbox "Seating" [ref=f1e117]
+                    - text: Seating
+                - generic [ref=f1e118]:
+                  - strong [ref=f1e119]: Seeing
+                  - generic [ref=f1e120]:
+                    - checkbox "Large print" [ref=f1e121]
+                    - text: Large print
+                  - generic [ref=f1e122]:
+                    - checkbox "Audio description" [ref=f1e123]
+                    - text: Audio description
+                - generic [ref=f1e124]:
+                  - strong [ref=f1e125]: Hearing
+                  - generic [ref=f1e126]:
+                    - checkbox "Sign or language interpreter" [ref=f1e127]
+                    - text: Sign or language interpreter
+                  - generic [ref=f1e128]:
+                    - checkbox "Captions" [ref=f1e129]
+                    - text: Captions
+                - generic [ref=f1e130]:
+                  - strong [ref=f1e131]: Noise, light and crowds
+                  - generic [ref=f1e132]:
+                    - checkbox "Quiet setting" [ref=f1e133]
+                    - text: Quiet setting
+                  - generic [ref=f1e134]:
+                    - checkbox "No flashing lights" [ref=f1e135]
+                    - text: No flashing lights
+                  - generic [ref=f1e136]:
+                    - checkbox "Quiet space" [ref=f1e137]
+                    - text: Quiet space
+                  - generic [ref=f1e138]:
+                    - checkbox "Small crowd" [ref=f1e139]
+                    - text: Small crowd
+                - generic [ref=f1e140]:
+                  - strong [ref=f1e141]: Understanding
+                  - generic [ref=f1e142]:
+                    - checkbox "Plain language" [ref=f1e143]
+                    - text: Plain language
+                  - generic [ref=f1e144]:
+                    - checkbox "Support person welcome" [ref=f1e145]
+                    - text: Support person welcome
+              - button "Clear all" [ref=f1e146] [cursor=pointer]
+            - generic [ref=f1e147]:
+              - paragraph [ref=f1e148]:
+                - strong [ref=f1e152]: What to expect
+              - paragraph [ref=f1e153]: "\"Not known yet\" does not mean \"no\". Please ask the host before you go."
+        - region [ref=f1e154]:
+          - generic [ref=f1e155]:
+            - generic [ref=f1e156]:
+              - heading "Good things, close to home" [level=2] [ref=f1e157]
+              - paragraph [ref=f1e158]: 25 events · Woodbine / Denison
+            - generic [ref=f1e159]:
+              - generic [ref=f1e160]:
+                - generic [ref=f1e161]: Sort by
+                - combobox "Sort by" [ref=f1e162]:
+                  - option "Soonest" [selected]
+                  - option "Best match"
+                  - option "Popular"
+                  - option "Highest rating"
+                  - option "Closest"
+              - group "View" [ref=f1e163]:
+                - button "List" [pressed] [ref=f1e164] [cursor=pointer]
+                - button "Map" [ref=f1e165] [cursor=pointer]
+          - group "All events" [ref=f1e166]:
+            - button "All" [pressed] [ref=f1e167] [cursor=pointer]
+            - button "Community" [ref=f1e168] [cursor=pointer]
+            - button "Arts" [ref=f1e169] [cursor=pointer]
+            - button "Outdoors" [ref=f1e170] [cursor=pointer]
+            - button "Learning" [ref=f1e171] [cursor=pointer]
+            - button "Family" [ref=f1e172] [cursor=pointer]
+            - button "Volunteering" [ref=f1e173] [cursor=pointer]
+            - button "Music" [ref=f1e174] [cursor=pointer]
+          - list [ref=f1e175]:
+            - listitem [ref=f1e176]:
+              - generic [ref=f1e177]:
+                - generic [ref=f1e178]:
+                  - generic [ref=f1e179]: Community
+                  - 'button "Save: New neighbours, good conversations" [ref=f1e180] [cursor=pointer]'
+                - generic [ref=f1e183]:
+                  - generic [ref=f1e184]:
+                    - generic [ref=f1e185]: Sunday, October 25, 10:00 a.m. – 11:30 a.m.
+                    - strong [ref=f1e186]: Free
+                  - heading [level=3] [ref=f1e187]:
+                    - link "New neighbours, good conversations" [ref=f1e188] [cursor=pointer]:
+                      - /url: "#/event/new-neighbours"
+                  - paragraph [ref=f1e189]:
+                    - text: Markham Village Library
+                    - generic [ref=f1e193]: · 33 min Transit
+                  - generic [ref=f1e194]:
+                    - generic [ref=f1e195]: English · 廣東話 · 普通话
+                    - generic [ref=f1e196]: Newcomers
+                  - paragraph [ref=f1e197]:
+                    - strong [ref=f1e198]: From Markham Public Library
+                    - text: · No rating yet
+                  - generic [ref=f1e199]:
+                    - generic [ref=f1e200]:
+                      - strong [ref=f1e201]: What to expect
+                      - generic [ref=f1e202]: Confirmed by host
+                    - paragraph [ref=f1e203]:
+                      - generic [ref=f1e204]: ✓ Seating
+                      - generic [ref=f1e205]: · ✓ Step-free entrance
+                      - generic [ref=f1e206]: · ? Quiet space
+                  - link "View event details" [ref=f1e207] [cursor=pointer]:
+                    - /url: "#/event/new-neighbours"
+            - listitem [ref=f1e210]:
+              - generic [ref=f1e211]:
+                - generic [ref=f1e212]:
+                  - generic [ref=f1e213]: Outdoors
+                  - 'button "Save: Fall colours and a friendly park walk" [ref=f1e214] [cursor=pointer]'
+                - generic [ref=f1e217]:
+                  - generic [ref=f1e218]:
+                    - generic [ref=f1e219]: Sunday, October 25, 2:00 p.m. – 3:30 p.m.
+                    - strong [ref=f1e220]: Free
+                  - heading [level=3] [ref=f1e221]:
+                    - link "Fall colours and a friendly park walk" [ref=f1e222] [cursor=pointer]:
+                      - /url: "#/event/fall-colours-walk"
+                  - paragraph [ref=f1e223]:
+                    - text: Milne Dam Conservation Park
+                    - generic [ref=f1e227]: · No bus service at start time
+                  - generic [ref=f1e228]:
+                    - generic [ref=f1e229]: English
+                    - generic [ref=f1e230]: All ages
+                  - paragraph [ref=f1e231]:
+                    - strong [ref=f1e232]: From City of Markham
+                    - text: · No rating yet
+                  - generic [ref=f1e233]:
+                    - generic [ref=f1e234]:
+                      - strong [ref=f1e235]: What to expect
+                      - generic [ref=f1e236]: Confirmed by host
+                    - paragraph [ref=f1e237]:
+                      - generic [ref=f1e238]: ✓ Seating
+                      - generic [ref=f1e239]: · ✓ Step-free entrance
+                      - generic [ref=f1e240]: · ? Quiet space
+                  - link "View event details" [ref=f1e241] [cursor=pointer]:
+                    - /url: "#/event/fall-colours-walk"
+            - listitem [ref=f1e244]:
+              - generic [ref=f1e245]:
+                - generic [ref=f1e246]:
+                  - generic [ref=f1e247]: Arts
+                  - 'button "Save: A little clay, a little creativity" [ref=f1e248] [cursor=pointer]'
+                - generic [ref=f1e251]:
+                  - generic [ref=f1e252]:
+                    - generic [ref=f1e253]: Tuesday, October 27, 6:00 p.m. – 8:00 p.m.
+                    - strong [ref=f1e254]: $25
+                  - heading [level=3] [ref=f1e255]:
+                    - link "A little clay, a little creativity" [ref=f1e256] [cursor=pointer]:
+                      - /url: "#/event/clay-night"
+                  - paragraph [ref=f1e257]:
+                    - text: Local art studio, Unionville
+                    - generic [ref=f1e261]: · 17 min Transit
+                  - generic [ref=f1e262]:
+                    - generic [ref=f1e263]: English
+                    - generic [ref=f1e264]: Adults
+                  - paragraph [ref=f1e265]:
+                    - strong [ref=f1e266]: From Eventbrite
+                    - text: ·
+                    - generic "4.7 / 5, 212 reviews" [ref=f1e267]: ★ 4.7 (212 reviews)
+                  - generic [ref=f1e268]:
+                    - generic [ref=f1e269]:
+                      - strong [ref=f1e270]: What to expect
+                      - generic [ref=f1e271]: Confirmed by host
+                    - paragraph [ref=f1e272]:
+                      - generic [ref=f1e273]: ✓ Seating
+                      - generic [ref=f1e274]: · ✕ Step-free entrance
+                      - generic [ref=f1e275]: · ? Quiet space
+                  - link "View event details" [ref=f1e276] [cursor=pointer]:
+                    - /url: "#/event/clay-night"
+            - listitem [ref=f1e279]:
+              - generic [ref=f1e280]:
+                - generic [ref=f1e281]:
+                  - generic [ref=f1e282]: Volunteering
+                  - 'button "Save: Lend a hand at a community pantry" [ref=f1e285] [cursor=pointer]'
+                - generic [ref=f1e288]:
+                  - generic [ref=f1e289]:
+                    - generic [ref=f1e290]: Wednesday, October 28, 4:00 p.m. – 6:00 p.m.
+                    - strong [ref=f1e291]: Free
+                  - heading [level=3] [ref=f1e292]:
+                    - link "Lend a hand at a community pantry" [ref=f1e293] [cursor=pointer]:
+                      - /url: "#/event/community-pantry"
+                  - paragraph [ref=f1e294]:
+                    - text: Community pantry, Markham
+                    - generic [ref=f1e298]: · 16 min Transit
+                  - generic [ref=f1e299]:
+                    - generic [ref=f1e300]: English · தமிழ்
+                    - generic [ref=f1e301]: Ages 16+
+                  - paragraph [ref=f1e302]:
+                    - strong [ref=f1e303]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e304]:
+                    - generic [ref=f1e305]:
+                      - strong [ref=f1e306]: What to expect
+                      - generic [ref=f1e307]: Confirmed by host
+                    - paragraph [ref=f1e308]:
+                      - generic [ref=f1e309]: ✓ Seating
+                      - generic [ref=f1e310]: · ✓ Step-free entrance
+                      - generic [ref=f1e311]: · ? Quiet space
+                  - link "See volunteer opportunity" [ref=f1e312] [cursor=pointer]:
+                    - /url: "#/event/community-pantry"
+            - listitem [ref=f1e315]:
+              - generic [ref=f1e316]:
+                - generic [ref=f1e317]:
+                  - generic [ref=f1e318]: Movement
+                  - 'button "Save: Morning tai chi in the park" [ref=f1e319] [cursor=pointer]'
+                - generic [ref=f1e322]:
+                  - generic [ref=f1e323]:
+                    - generic [ref=f1e324]: Thursday, October 29, 9:00 a.m. – 10:00 a.m.
+                    - strong [ref=f1e325]: Free
+                  - heading [level=3] [ref=f1e326]:
+                    - link "Morning tai chi in the park" [ref=f1e327] [cursor=pointer]:
+                      - /url: "#/event/tai-chi"
+                  - paragraph [ref=f1e328]:
+                    - text: Markham Centennial Park
+                    - generic [ref=f1e332]: · 29 min Transit
+                  - generic [ref=f1e333]:
+                    - generic [ref=f1e334]: 廣東話 · English
+                    - generic [ref=f1e335]: Adults and seniors
+                  - paragraph [ref=f1e336]:
+                    - strong [ref=f1e337]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e338]:
+                    - generic [ref=f1e339]:
+                      - strong [ref=f1e340]: What to expect
+                      - generic [ref=f1e341]: Confirmed by host
+                    - paragraph [ref=f1e342]:
+                      - generic [ref=f1e343]: ✓ Seating
+                      - generic [ref=f1e344]: · ✓ Step-free entrance
+                      - generic [ref=f1e345]: · ? Quiet space
+                  - link "View event details" [ref=f1e346] [cursor=pointer]:
+                    - /url: "#/event/tai-chi"
+            - listitem [ref=f1e349]:
+              - generic [ref=f1e350]:
+                - generic [ref=f1e351]:
+                  - generic [ref=f1e352]: Learning
+                  - 'button "Save: Newcomer job club" [ref=f1e353] [cursor=pointer]'
+                - generic [ref=f1e356]:
+                  - generic [ref=f1e357]:
+                    - generic [ref=f1e358]: Thursday, October 29, 6:30 p.m. – 8:30 p.m.
+                    - strong [ref=f1e359]: Free
+                  - heading [level=3] [ref=f1e360]:
+                    - link "Newcomer job club" [ref=f1e361] [cursor=pointer]:
+                      - /url: "#/event/job-club"
+                  - paragraph [ref=f1e362]:
+                    - text: Markham Civic Centre
+                    - generic [ref=f1e366]: · 11 min Transit
+                  - generic [ref=f1e367]:
+                    - generic [ref=f1e368]: English · 普通话 · فارسی · தமிழ்
+                    - generic [ref=f1e369]: Newcomers
+                  - paragraph [ref=f1e370]:
+                    - strong [ref=f1e371]: From Eventbrite
+                    - text: ·
+                    - generic "4.5 / 5, 128 reviews" [ref=f1e372]: ★ 4.5 (128 reviews)
+                  - generic [ref=f1e373]:
+                    - generic [ref=f1e374]:
+                      - strong [ref=f1e375]: What to expect
+                      - generic [ref=f1e376]: Confirmed by host
+                    - paragraph [ref=f1e377]:
+                      - generic [ref=f1e378]: ✓ Seating
+                      - generic [ref=f1e379]: · ✓ Step-free entrance
+                      - generic [ref=f1e380]: · ? Quiet space
+                  - link "View event details" [ref=f1e381] [cursor=pointer]:
+                    - /url: "#/event/job-club"
+            - listitem [ref=f1e384]:
+              - generic [ref=f1e385]:
+                - generic [ref=f1e386]:
+                  - generic [ref=f1e387]: Community
+                  - 'button "Save: Quiet board games for seniors" [ref=f1e388] [cursor=pointer]'
+                - generic [ref=f1e391]:
+                  - generic [ref=f1e392]:
+                    - generic [ref=f1e393]: Friday, October 30, 2:00 p.m. – 4:00 p.m.
+                    - strong [ref=f1e394]: Free
+                  - heading [level=3] [ref=f1e395]:
+                    - link "Quiet board games for seniors" [ref=f1e396] [cursor=pointer]:
+                      - /url: "#/event/board-games"
+                  - paragraph [ref=f1e397]:
+                    - text: Milliken Mills Community Centre
+                    - generic [ref=f1e401]: · 29 min Transit
+                  - generic [ref=f1e402]:
+                    - generic [ref=f1e403]: English · 廣東話 · 普通话
+                    - generic [ref=f1e404]: Seniors
+                  - paragraph [ref=f1e405]:
+                    - strong [ref=f1e406]: From TodoMarkham
+                    - text: · No rating yet
+                  - generic [ref=f1e407]:
+                    - generic [ref=f1e408]:
+                      - strong [ref=f1e409]: What to expect
+                      - generic [ref=f1e410]: Confirmed by host
+                    - paragraph [ref=f1e411]:
+                      - generic [ref=f1e412]: ✓ Seating
+                      - generic [ref=f1e413]: · ✓ Step-free entrance
+                      - generic [ref=f1e414]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e415] [cursor=pointer]:
+                    - /url: "#/event/board-games"
+            - listitem [ref=f1e418]:
+              - generic [ref=f1e419]:
+                - generic [ref=f1e420]:
+                  - generic [ref=f1e421]: Food
+                  - 'button "Save: Cook and share: family recipes night" [ref=f1e422] [cursor=pointer]'
+                - generic [ref=f1e425]:
+                  - generic [ref=f1e426]:
+                    - generic [ref=f1e427]: Friday, October 30, 6:00 p.m. – 8:30 p.m.
+                    - strong [ref=f1e428]: $5
+                  - heading [level=3] [ref=f1e429]:
+                    - 'link "Cook and share: family recipes night" [ref=f1e430] [cursor=pointer]':
+                      - /url: "#/event/family-recipes"
+                  - paragraph [ref=f1e431]:
+                    - text: Aaniin Community Centre
+                    - generic [ref=f1e435]: · 33 min Transit
+                  - generic [ref=f1e436]:
+                    - generic [ref=f1e437]: English · தமிழ் · 普通话
+                    - generic [ref=f1e438]: Adults and teens
+                  - paragraph [ref=f1e439]:
+                    - strong [ref=f1e440]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e441]:
+                    - generic [ref=f1e442]:
+                      - strong [ref=f1e443]: What to expect
+                      - generic [ref=f1e444]: Confirmed by host
+                    - paragraph [ref=f1e445]:
+                      - generic [ref=f1e446]: ✓ Seating
+                      - generic [ref=f1e447]: · ✓ Step-free entrance
+                      - generic [ref=f1e448]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e449] [cursor=pointer]:
+                    - /url: "#/event/family-recipes"
+            - listitem [ref=f1e452]:
+              - generic [ref=f1e453]:
+                - generic [ref=f1e454]:
+                  - generic [ref=f1e455]: Volunteering
+                  - 'button "Save: Community garden fall cleanup" [ref=f1e458] [cursor=pointer]'
+                - generic [ref=f1e461]:
+                  - generic [ref=f1e462]:
+                    - generic [ref=f1e463]: Saturday, October 31, 9:30 a.m. – 12:00 p.m.
+                    - strong [ref=f1e464]: Free
+                  - heading [level=3] [ref=f1e465]:
+                    - link "Community garden fall cleanup" [ref=f1e466] [cursor=pointer]:
+                      - /url: "#/event/garden-cleanup"
+                  - paragraph [ref=f1e467]:
+                    - text: Cornell Community Garden
+                    - generic [ref=f1e471]: · 46 min Transit
+                  - generic [ref=f1e472]:
+                    - generic [ref=f1e473]: English
+                    - generic [ref=f1e474]: All ages
+                  - paragraph [ref=f1e475]:
+                    - strong [ref=f1e476]: From Eventbrite
+                    - text: ·
+                    - generic "4.6 / 5, 74 reviews" [ref=f1e477]: ★ 4.6 (74 reviews)
+                  - generic [ref=f1e478]:
+                    - generic [ref=f1e479]:
+                      - strong [ref=f1e480]: What to expect
+                      - generic [ref=f1e481]: Confirmed by host
+                    - paragraph [ref=f1e482]:
+                      - generic [ref=f1e483]: ✓ Seating
+                      - generic [ref=f1e484]: · ✓ Step-free entrance
+                      - generic [ref=f1e485]: · ? Quiet space
+                  - link "See volunteer opportunity" [ref=f1e486] [cursor=pointer]:
+                    - /url: "#/event/garden-cleanup"
+            - listitem [ref=f1e489]:
+              - generic [ref=f1e490]:
+                - generic [ref=f1e491]:
+                  - generic [ref=f1e492]: Family
+                  - 'button "Save: Saturday stories for little explorers" [ref=f1e493] [cursor=pointer]'
+                - generic [ref=f1e496]:
+                  - generic [ref=f1e497]:
+                    - generic [ref=f1e498]: Saturday, October 31, 10:00 a.m. – 11:00 a.m.
+                    - strong [ref=f1e499]: Free
+                  - heading [level=3] [ref=f1e500]:
+                    - link "Saturday stories for little explorers" [ref=f1e501] [cursor=pointer]:
+                      - /url: "#/event/saturday-stories"
+                  - paragraph [ref=f1e502]:
+                    - text: Angus Glen Library
+                    - generic [ref=f1e506]: · 35 min Transit
+                  - generic [ref=f1e507]:
+                    - generic [ref=f1e508]: English · 普通话
+                    - generic [ref=f1e509]: Families
+                  - paragraph [ref=f1e510]:
+                    - strong [ref=f1e511]: From Markham Public Library
+                    - text: · No rating yet
+                  - generic [ref=f1e512]:
+                    - generic [ref=f1e513]:
+                      - strong [ref=f1e514]: What to expect
+                      - generic [ref=f1e515]: Confirmed by host
+                    - paragraph [ref=f1e516]:
+                      - generic [ref=f1e517]: ✓ Seating
+                      - generic [ref=f1e518]: · ✓ Step-free entrance
+                      - generic [ref=f1e519]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e520] [cursor=pointer]:
+                    - /url: "#/event/saturday-stories"
+            - listitem [ref=f1e523]:
+              - generic [ref=f1e524]:
+                - generic [ref=f1e525]:
+                  - generic [ref=f1e526]: Family
+                  - 'button "Save: Sensory-friendly quiet hour" [ref=f1e527] [cursor=pointer]'
+                - generic [ref=f1e530]:
+                  - generic [ref=f1e531]:
+                    - generic [ref=f1e532]: Sunday, November 1, 9:00 a.m. – 10:00 a.m.
+                    - strong [ref=f1e533]: Free
+                  - heading [level=3] [ref=f1e534]:
+                    - link "Sensory-friendly quiet hour" [ref=f1e535] [cursor=pointer]:
+                      - /url: "#/event/quiet-hour"
+                  - paragraph [ref=f1e536]:
+                    - text: Markham Village Library
+                    - generic [ref=f1e540]: · 33 min Transit
+                  - generic [ref=f1e541]:
+                    - generic [ref=f1e542]: English · 普通话
+                    - generic [ref=f1e543]: All ages
+                  - paragraph [ref=f1e544]:
+                    - strong [ref=f1e545]: From Markham Public Library
+                    - text: · No rating yet
+                  - generic [ref=f1e546]:
+                    - generic [ref=f1e547]:
+                      - strong [ref=f1e548]: What to expect
+                      - generic [ref=f1e549]: Confirmed by host
+                    - paragraph [ref=f1e550]:
+                      - generic [ref=f1e551]: ✓ Seating
+                      - generic [ref=f1e552]: · ✓ Step-free entrance
+                      - generic [ref=f1e553]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e554] [cursor=pointer]:
+                    - /url: "#/event/quiet-hour"
+            - listitem [ref=f1e557]:
+              - generic [ref=f1e558]:
+                - generic [ref=f1e559]:
+                  - generic [ref=f1e560]: Learning
+                  - 'button "Save: Make, learn and meet: a maker afternoon" [ref=f1e561] [cursor=pointer]'
+                - generic [ref=f1e564]:
+                  - generic [ref=f1e565]:
+                    - generic [ref=f1e566]: Sunday, November 1, 1:00 p.m. – 3:00 p.m.
+                    - strong [ref=f1e567]: $10
+                  - heading [level=3] [ref=f1e568]:
+                    - 'link "Make, learn and meet: a maker afternoon" [ref=f1e569] [cursor=pointer]':
+                      - /url: "#/event/maker-afternoon"
+                  - paragraph [ref=f1e570]:
+                    - text: Aaniin Community Centre
+                    - generic [ref=f1e574]: · 33 min Transit
+                  - generic [ref=f1e575]:
+                    - generic [ref=f1e576]: English
+                    - generic [ref=f1e577]: Youth and adults
+                  - paragraph [ref=f1e578]:
+                    - strong [ref=f1e579]: From City of Markham
+                    - text: ·
+                    - generic "4.4 / 5, 61 reviews" [ref=f1e580]: ★ 4.4 (61 reviews)
+                  - generic [ref=f1e581]:
+                    - generic [ref=f1e582]:
+                      - strong [ref=f1e583]: What to expect
+                      - generic [ref=f1e584]: Confirmed by host
+                    - paragraph [ref=f1e585]:
+                      - generic [ref=f1e586]: ✓ Seating
+                      - generic [ref=f1e587]: · ✓ Step-free entrance
+                      - generic [ref=f1e588]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e589] [cursor=pointer]:
+                    - /url: "#/event/maker-afternoon"
+            - listitem [ref=f1e592]:
+              - generic [ref=f1e593]:
+                - generic [ref=f1e594]:
+                  - generic [ref=f1e595]: Outdoors
+                  - 'button "Save: Seniors'' mall walking group" [ref=f1e596] [cursor=pointer]'
+                - generic [ref=f1e599]:
+                  - generic [ref=f1e600]:
+                    - generic [ref=f1e601]: Monday, November 2, 9:00 a.m. – 10:30 a.m.
+                    - strong [ref=f1e602]: Free
+                  - heading [level=3] [ref=f1e603]:
+                    - link "Seniors' mall walking group" [ref=f1e604] [cursor=pointer]:
+                      - /url: "#/event/seniors-walk"
+                  - paragraph [ref=f1e605]:
+                    - text: Markville Mall
+                    - generic [ref=f1e609]: · 25 min Transit
+                  - generic [ref=f1e610]:
+                    - generic [ref=f1e611]: English · 廣東話 · 普通话
+                    - generic [ref=f1e612]: Seniors
+                  - paragraph [ref=f1e613]:
+                    - strong [ref=f1e614]: From TodoMarkham
+                    - text: · No rating yet
+                  - generic [ref=f1e615]:
+                    - generic [ref=f1e616]:
+                      - strong [ref=f1e617]: What to expect
+                      - generic [ref=f1e618]: Confirmed by host
+                    - paragraph [ref=f1e619]:
+                      - generic [ref=f1e620]: ✓ Seating
+                      - generic [ref=f1e621]: · ✓ Step-free entrance
+                      - generic [ref=f1e622]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e623] [cursor=pointer]:
+                    - /url: "#/event/seniors-walk"
+            - listitem [ref=f1e626]:
+              - generic [ref=f1e627]:
+                - generic [ref=f1e628]:
+                  - generic [ref=f1e629]: Learning
+                  - 'button "Save: Phones and tablets help desk" [ref=f1e630] [cursor=pointer]'
+                - generic [ref=f1e633]:
+                  - generic [ref=f1e634]:
+                    - generic [ref=f1e635]: Monday, November 2, 2:00 p.m. – 4:00 p.m.
+                    - strong [ref=f1e636]: Free
+                  - heading [level=3] [ref=f1e637]:
+                    - link "Phones and tablets help desk" [ref=f1e638] [cursor=pointer]:
+                      - /url: "#/event/tech-help"
+                  - paragraph [ref=f1e639]:
+                    - text: Angus Glen Library
+                    - generic [ref=f1e643]: · 35 min Transit
+                  - generic [ref=f1e644]:
+                    - generic [ref=f1e645]: English · 普通话 · فارسی
+                    - generic [ref=f1e646]: Seniors
+                  - paragraph [ref=f1e647]:
+                    - strong [ref=f1e648]: From Markham Public Library
+                    - text: · No rating yet
+                  - generic [ref=f1e649]:
+                    - generic [ref=f1e650]:
+                      - strong [ref=f1e651]: What to expect
+                      - generic [ref=f1e652]: Confirmed by host
+                    - paragraph [ref=f1e653]:
+                      - generic [ref=f1e654]: ✓ Seating
+                      - generic [ref=f1e655]: · ✓ Step-free entrance
+                      - generic [ref=f1e656]: · ? Quiet space
+                  - link "View event details" [ref=f1e657] [cursor=pointer]:
+                    - /url: "#/event/tech-help"
+            - listitem [ref=f1e660]:
+              - generic [ref=f1e661]:
+                - generic [ref=f1e662]:
+                  - generic [ref=f1e663]: Movement
+                  - 'button "Save: Chair yoga for everyone" [ref=f1e664] [cursor=pointer]'
+                - generic [ref=f1e667]:
+                  - generic [ref=f1e668]:
+                    - generic [ref=f1e669]: Tuesday, November 3, 10:30 a.m. – 11:30 a.m.
+                    - strong [ref=f1e670]: Free
+                  - heading [level=3] [ref=f1e671]:
+                    - link "Chair yoga for everyone" [ref=f1e672] [cursor=pointer]:
+                      - /url: "#/event/chair-yoga"
+                  - paragraph [ref=f1e673]:
+                    - text: Markham Village Library
+                    - generic [ref=f1e677]: · 33 min Transit
+                  - generic [ref=f1e678]:
+                    - generic [ref=f1e679]: English · 廣東話
+                    - generic [ref=f1e680]: Adults and seniors
+                  - paragraph [ref=f1e681]:
+                    - strong [ref=f1e682]: From City of Markham
+                    - text: · No rating yet
+                  - generic [ref=f1e683]:
+                    - generic [ref=f1e684]:
+                      - strong [ref=f1e685]: What to expect
+                      - generic [ref=f1e686]: Confirmed by host
+                    - paragraph [ref=f1e687]:
+                      - generic [ref=f1e688]: ✓ Seating
+                      - generic [ref=f1e689]: · ✓ Step-free entrance
+                      - generic [ref=f1e690]: · ? Quiet space
+                  - link "View event details" [ref=f1e691] [cursor=pointer]:
+                    - /url: "#/event/chair-yoga"
+            - listitem [ref=f1e694]:
+              - generic [ref=f1e695]:
+                - generic [ref=f1e696]:
+                  - generic [ref=f1e697]: Community
+                  - 'button "Save: ASL and LSQ social cafe" [ref=f1e698] [cursor=pointer]'
+                - generic [ref=f1e701]:
+                  - generic [ref=f1e702]:
+                    - generic [ref=f1e703]: Wednesday, November 4, 6:30 p.m. – 8:00 p.m.
+                    - strong [ref=f1e704]: Free
+                  - heading [level=3] [ref=f1e705]:
+                    - link "ASL and LSQ social cafe" [ref=f1e706] [cursor=pointer]:
+                      - /url: "#/event/sign-language-cafe"
+                  - paragraph [ref=f1e707]:
+                    - text: Cornell Community Centre
+                    - generic [ref=f1e711]: · 46 min Transit
+                  - generic [ref=f1e712]:
+                    - generic [ref=f1e713]: English
+                    - generic [ref=f1e714]: All ages
+                  - paragraph [ref=f1e715]:
+                    - strong [ref=f1e716]: From Eventbrite
+                    - text: ·
+                    - generic "4.9 / 5, 38 reviews" [ref=f1e717]: ★ 4.9 (38 reviews)
+                  - generic [ref=f1e718]:
+                    - generic [ref=f1e719]:
+                      - strong [ref=f1e720]: What to expect
+                      - generic [ref=f1e721]: Confirmed by host
+                    - paragraph [ref=f1e722]:
+                      - generic [ref=f1e723]: ✓ Seating
+                      - generic [ref=f1e724]: · ✓ Step-free entrance
+                      - generic [ref=f1e725]: · ? Quiet space
+                  - link "View event details" [ref=f1e726] [cursor=pointer]:
+                    - /url: "#/event/sign-language-cafe"
+            - listitem [ref=f1e729]:
+              - generic [ref=f1e730]:
+                - generic [ref=f1e731]:
+                  - generic [ref=f1e732]: Movement
+                  - 'button "Save: Try badminton night" [ref=f1e733] [cursor=pointer]'
+                - generic [ref=f1e736]:
+                  - generic [ref=f1e737]:
+                    - generic [ref=f1e738]: Wednesday, November 4, 7:30 p.m. – 9:00 p.m.
+                    - strong [ref=f1e739]: $8
+                  - heading [level=3] [ref=f1e740]:
+                    - link "Try badminton night" [ref=f1e741] [cursor=pointer]:
+                      - /url: "#/event/badminton-night"
+                  - paragraph [ref=f1e742]:
+                    - text: Aaniin Community Centre
+                    - generic [ref=f1e746]: · 33 min Transit
+                  - generic [ref=f1e747]:
+                    - generic [ref=f1e748]: English · 普通话 · 廣東話
+                    - generic [ref=f1e749]: Adults and teens
+                  - paragraph [ref=f1e750]:
+                    - strong [ref=f1e751]: From Eventbrite
+                    - text: ·
+                    - generic "4.7 / 5, 88 reviews" [ref=f1e752]: ★ 4.7 (88 reviews)
+                  - generic [ref=f1e753]:
+                    - generic [ref=f1e754]:
+                      - strong [ref=f1e755]: What to expect
+                      - generic [ref=f1e756]: Confirmed by host
+                    - paragraph [ref=f1e757]:
+                      - generic [ref=f1e758]: ✓ Seating
+                      - generic [ref=f1e759]: · ✓ Step-free entrance
+                      - generic [ref=f1e760]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e761] [cursor=pointer]:
+                    - /url: "#/event/badminton-night"
+            - listitem [ref=f1e764]:
+              - generic [ref=f1e765]:
+                - generic [ref=f1e766]:
+                  - generic [ref=f1e767]: Music
+                  - 'button "Save: Community choir open rehearsal" [ref=f1e768] [cursor=pointer]'
+                - generic [ref=f1e771]:
+                  - generic [ref=f1e772]:
+                    - generic [ref=f1e773]: Thursday, November 5, 7:00 p.m. – 8:30 p.m.
+                    - strong [ref=f1e774]: Free
+                  - heading [level=3] [ref=f1e775]:
+                    - link "Community choir open rehearsal" [ref=f1e776] [cursor=pointer]:
+                      - /url: "#/event/choir-open"
+                  - paragraph [ref=f1e777]:
+                    - text: Thornhill Community Centre
+                    - generic [ref=f1e781]: · 37 min Transit
+                  - generic [ref=f1e782]:
+                    - generic [ref=f1e783]: English · 廣東話 · தமிழ்
+                    - generic [ref=f1e784]: Adults and teens
+                  - paragraph [ref=f1e785]:
+                    - strong [ref=f1e786]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e787]:
+                    - generic [ref=f1e788]:
+                      - strong [ref=f1e789]: What to expect
+                      - generic [ref=f1e790]: Confirmed by host
+                    - paragraph [ref=f1e791]:
+                      - generic [ref=f1e792]: ✓ Seating
+                      - generic [ref=f1e793]: · ✓ Step-free entrance
+                      - generic [ref=f1e794]: · ? Quiet space
+                  - link "View event details" [ref=f1e795] [cursor=pointer]:
+                    - /url: "#/event/choir-open"
+            - listitem [ref=f1e798]:
+              - generic [ref=f1e799]:
+                - generic [ref=f1e800]:
+                  - generic [ref=f1e801]: Music
+                  - 'button "Save: Tamil folk music evening" [ref=f1e802] [cursor=pointer]'
+                - generic [ref=f1e805]:
+                  - generic [ref=f1e806]:
+                    - generic [ref=f1e807]: Friday, November 6, 6:30 p.m. – 8:30 p.m.
+                    - strong [ref=f1e808]: $15
+                  - heading [level=3] [ref=f1e809]:
+                    - link "Tamil folk music evening" [ref=f1e810] [cursor=pointer]:
+                      - /url: "#/event/tamil-music"
+                  - paragraph [ref=f1e811]:
+                    - text: Markham Civic Centre
+                    - generic [ref=f1e815]: · 11 min Transit
+                  - generic [ref=f1e816]:
+                    - generic [ref=f1e817]: தமிழ் · English
+                    - generic [ref=f1e818]: All ages
+                  - paragraph [ref=f1e819]:
+                    - strong [ref=f1e820]: From Eventbrite
+                    - text: ·
+                    - generic "4.8 / 5, 96 reviews" [ref=f1e821]: ★ 4.8 (96 reviews)
+                  - generic [ref=f1e822]:
+                    - generic [ref=f1e823]:
+                      - strong [ref=f1e824]: What to expect
+                      - generic [ref=f1e825]: Confirmed by host
+                    - paragraph [ref=f1e826]:
+                      - generic [ref=f1e827]: ✓ Seating
+                      - generic [ref=f1e828]: · ✓ Step-free entrance
+                      - generic [ref=f1e829]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e830] [cursor=pointer]:
+                    - /url: "#/event/tamil-music"
+            - listitem [ref=f1e833]:
+              - generic [ref=f1e834]:
+                - generic [ref=f1e835]:
+                  - generic [ref=f1e836]: Family
+                  - 'button "Save: Mandarin story time" [ref=f1e837] [cursor=pointer]'
+                - generic [ref=f1e840]:
+                  - generic [ref=f1e841]:
+                    - generic [ref=f1e842]: Saturday, November 7, 10:30 a.m. – 11:30 a.m.
+                    - strong [ref=f1e843]: Free
+                  - heading [level=3] [ref=f1e844]:
+                    - link "Mandarin story time" [ref=f1e845] [cursor=pointer]:
+                      - /url: "#/event/mandarin-story"
+                  - paragraph [ref=f1e846]:
+                    - text: Unionville Library
+                    - generic [ref=f1e850]: · 19 min Transit
+                  - generic [ref=f1e851]:
+                    - generic [ref=f1e852]: 普通话 · English
+                    - generic [ref=f1e853]: Families
+                  - paragraph [ref=f1e854]:
+                    - strong [ref=f1e855]: From Markham Public Library
+                    - text: · No rating yet
+                  - generic [ref=f1e856]:
+                    - generic [ref=f1e857]:
+                      - strong [ref=f1e858]: What to expect
+                      - generic [ref=f1e859]: Confirmed by host
+                    - paragraph [ref=f1e860]:
+                      - generic [ref=f1e861]: ✓ Seating
+                      - generic [ref=f1e862]: · ✓ Step-free entrance
+                      - generic [ref=f1e863]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e864] [cursor=pointer]:
+                    - /url: "#/event/mandarin-story"
+            - listitem [ref=f1e867]:
+              - generic [ref=f1e868]:
+                - generic [ref=f1e869]:
+                  - generic [ref=f1e870]: Community
+                  - 'button "Save: Unionville Mending Circle" [ref=f1e873] [cursor=pointer]'
+                - generic [ref=f1e876]:
+                  - generic [ref=f1e877]:
+                    - generic [ref=f1e878]: Saturday, November 7, 1:00 p.m. – 3:00 p.m.
+                    - strong [ref=f1e879]: Free
+                  - heading [level=3] [ref=f1e880]:
+                    - link "Unionville Mending Circle" [ref=f1e881] [cursor=pointer]:
+                      - /url: "#/event/mending-circle"
+                  - paragraph [ref=f1e882]:
+                    - text: Unionville Library
+                    - generic [ref=f1e886]: · 19 min Transit
+                  - generic [ref=f1e887]:
+                    - generic [ref=f1e888]: English · 普通话
+                    - generic [ref=f1e889]: Adults, newcomers welcome
+                  - paragraph [ref=f1e890]:
+                    - strong [ref=f1e891]: From TodoMarkham
+                    - text: · No rating yet
+                  - generic [ref=f1e892]:
+                    - generic [ref=f1e893]:
+                      - strong [ref=f1e894]: What to expect
+                      - generic [ref=f1e895]: Confirmed by host
+                    - paragraph [ref=f1e896]:
+                      - generic [ref=f1e897]: ✓ Seating
+                      - generic [ref=f1e898]: · ✓ Step-free entrance
+                      - generic [ref=f1e899]: · ? Quiet space
+                  - link "See volunteer opportunity" [ref=f1e900] [cursor=pointer]:
+                    - /url: "#/event/mending-circle"
+            - listitem [ref=f1e903]:
+              - generic [ref=f1e904]:
+                - generic [ref=f1e905]:
+                  - generic [ref=f1e906]: Arts
+                  - 'button "Save: Persian poetry and tea afternoon" [ref=f1e907] [cursor=pointer]'
+                - generic [ref=f1e910]:
+                  - generic [ref=f1e911]:
+                    - generic [ref=f1e912]: Sunday, November 8, 3:00 p.m. – 5:00 p.m.
+                    - strong [ref=f1e913]: Free
+                  - heading [level=3] [ref=f1e914]:
+                    - link "Persian poetry and tea afternoon" [ref=f1e915] [cursor=pointer]:
+                      - /url: "#/event/persian-poetry"
+                  - paragraph [ref=f1e916]:
+                    - text: Thornhill Community Centre
+                    - generic [ref=f1e920]: · 37 min Transit
+                  - generic [ref=f1e921]:
+                    - generic [ref=f1e922]: فارسی · English
+                    - generic [ref=f1e923]: Adults
+                  - paragraph [ref=f1e924]:
+                    - strong [ref=f1e925]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e926]:
+                    - generic [ref=f1e927]:
+                      - strong [ref=f1e928]: What to expect
+                      - generic [ref=f1e929]: Confirmed by host
+                    - paragraph [ref=f1e930]:
+                      - generic [ref=f1e931]: ✓ Seating
+                      - generic [ref=f1e932]: · ✓ Step-free entrance
+                      - generic [ref=f1e933]: · ? Quiet space
+                  - link "View event details" [ref=f1e934] [cursor=pointer]:
+                    - /url: "#/event/persian-poetry"
+            - listitem [ref=f1e937]:
+              - generic [ref=f1e938]:
+                - generic [ref=f1e939]:
+                  - generic [ref=f1e940]: Community
+                  - 'button "Save: Diwali lights stroll and sweets" [ref=f1e941] [cursor=pointer]'
+                - generic [ref=f1e944]:
+                  - generic [ref=f1e945]:
+                    - generic [ref=f1e946]: Sunday, November 8, 5:30 p.m. – 7:30 p.m.
+                    - strong [ref=f1e947]: Free
+                  - heading [level=3] [ref=f1e948]:
+                    - link "Diwali lights stroll and sweets" [ref=f1e949] [cursor=pointer]:
+                      - /url: "#/event/diwali-lights"
+                  - paragraph [ref=f1e950]:
+                    - text: Markham Civic Centre
+                    - generic [ref=f1e954]: · 11 min Transit
+                  - generic [ref=f1e955]:
+                    - generic [ref=f1e956]: English · தமிழ் · فارسی
+                    - generic [ref=f1e957]: All ages
+                  - paragraph [ref=f1e958]:
+                    - strong [ref=f1e959]: From City of Markham
+                    - text: · No rating yet
+                  - generic [ref=f1e960]:
+                    - generic [ref=f1e961]:
+                      - strong [ref=f1e962]: What to expect
+                      - generic [ref=f1e963]: Confirmed by host
+                    - paragraph [ref=f1e964]:
+                      - generic [ref=f1e965]: ✓ Seating
+                      - generic [ref=f1e966]: · ✓ Step-free entrance
+                      - generic [ref=f1e967]: · ✓ Quiet space
+                  - link "View event details" [ref=f1e968] [cursor=pointer]:
+                    - /url: "#/event/diwali-lights"
+            - listitem [ref=f1e971]:
+              - generic [ref=f1e972]:
+                - generic [ref=f1e973]:
+                  - generic [ref=f1e974]: Community
+                  - 'button "Save: Repair cafe: fix it, do not toss it" [ref=f1e977] [cursor=pointer]'
+                - generic [ref=f1e980]:
+                  - generic [ref=f1e981]:
+                    - generic [ref=f1e982]: Saturday, November 14, 10:00 a.m. – 1:00 p.m.
+                    - strong [ref=f1e983]: Free
+                  - heading [level=3] [ref=f1e984]:
+                    - 'link "Repair cafe: fix it, do not toss it" [ref=f1e985] [cursor=pointer]':
+                      - /url: "#/event/repair-cafe"
+                  - paragraph [ref=f1e986]:
+                    - text: Milliken Mills Community Centre
+                    - generic [ref=f1e990]: · 29 min Transit
+                  - generic [ref=f1e991]:
+                    - generic [ref=f1e992]: English · 廣東話 · 普通话
+                    - generic [ref=f1e993]: All ages
+                  - paragraph [ref=f1e994]:
+                    - strong [ref=f1e995]: From Luma
+                    - text: · No rating yet
+                  - generic [ref=f1e996]:
+                    - generic [ref=f1e997]:
+                      - strong [ref=f1e998]: What to expect
+                      - generic [ref=f1e999]: Confirmed by host
+                    - paragraph [ref=f1e1000]:
+                      - generic [ref=f1e1001]: ✓ Seating
+                      - generic [ref=f1e1002]: · ✓ Step-free entrance
+                      - generic [ref=f1e1003]: · ? Quiet space
+                  - link "See volunteer opportunity" [ref=f1e1004] [cursor=pointer]:
+                    - /url: "#/event/repair-cafe"
+            - listitem [ref=f1e1007]:
+              - generic [ref=f1e1008]:
+                - generic [ref=f1e1009]:
+                  - generic [ref=f1e1010]: Arts
+                  - 'button "Save: Local artists open studio afternoon" [ref=f1e1011] [cursor=pointer]'
+                - generic [ref=f1e1014]:
+                  - generic [ref=f1e1015]:
+                    - generic [ref=f1e1016]: Sunday, November 15, 1:00 p.m. – 5:00 p.m.
+                    - strong [ref=f1e1017]: Free
+                  - heading [level=3] [ref=f1e1018]:
+                    - link "Local artists open studio afternoon" [ref=f1e1019] [cursor=pointer]:
+                      - /url: "#/event/open-studio"
+                  - paragraph [ref=f1e1020]:
+                    - text: Unionville Main Street
+                    - generic [ref=f1e1024]: · 16 min Transit
+                  - generic [ref=f1e1025]:
+                    - generic [ref=f1e1026]: English
+                    - generic [ref=f1e1027]: All ages
+                  - paragraph [ref=f1e1028]:
+                    - strong [ref=f1e1029]: From Eventbrite
+                    - text: ·
+                    - generic "4.8 / 5, 41 reviews" [ref=f1e1030]: ★ 4.8 (41 reviews)
+                  - generic [ref=f1e1031]:
+                    - generic [ref=f1e1032]:
+                      - strong [ref=f1e1033]: What to expect
+                      - generic [ref=f1e1034]: Our estimate
+                    - paragraph [ref=f1e1035]:
+                      - generic [ref=f1e1036]: ✓ Seating
+                      - generic [ref=f1e1037]: · ✕ Step-free entrance
+                      - generic [ref=f1e1038]: · ? Quiet space
+                  - link "View event details" [ref=f1e1039] [cursor=pointer]:
+                    - /url: "#/event/open-studio"
+          - paragraph [ref=f1e1042]: These are sample listings. Dates, prices and ratings are illustrative.
+  - contentinfo [ref=f1e1046]:
+    - generic [ref=f1e1047]:
+      - generic [ref=f1e1048]:
+        - strong [ref=f1e1051]: TodoMarkham
+        - generic [ref=f1e1052]: Events in Markham that fit you.
+      - generic [ref=f1e1053]:
+        - link "About" [ref=f1e1054] [cursor=pointer]:
+          - /url: "#/about"
+        - text: · Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [expanded] [ref=f1e1055] [cursor=pointer]
+  - dialog "Ask Maple" [ref=f1e1062]:
+    - generic [ref=f1e1063]:
+      - generic [ref=f1e1070]:
+        - strong [ref=f1e1071]: Maple
+        - text: Your event guide
+      - button "Close" [ref=f1e1072] [cursor=pointer]
+    - generic [ref=f1e1075]:
+      - generic [ref=f1e1076]:
+        - generic "Maple runs without a model key here. It still understands your words and uses the same tools." [ref=f1e1077]: Offline AI mode
+        - generic [ref=f1e1081]:
+          - checkbox "Read replies aloud" [ref=f1e1082]
+          - text: Read replies aloud
+      - log "Chat with Maple" [ref=f1e1083]:
+        - generic [ref=f1e1090]:
+          - paragraph [ref=f1e1091]: Hello! Tell me what you are looking for, or what would help you feel comfortable.
+          - group "Quick answers" [ref=f1e1093]:
+            - button "Free this weekend" [ref=f1e1094] [cursor=pointer]
+            - button "Quiet and step-free" [ref=f1e1095] [cursor=pointer]
+            - button "Without a car" [ref=f1e1096] [cursor=pointer]
+            - button "Something for the family" [ref=f1e1097] [cursor=pointer]
+            - button "Volunteer near me" [ref=f1e1098] [cursor=pointer]
+        - paragraph [ref=f1e1101]: I use a wheelchair and want quiet free things this weekend near a bus
+        - generic [ref=f1e1108]:
+          - paragraph [ref=f1e1109]: I found 10 events that fit. The best match is Persian poetry and tea afternoon.
+          - generic [ref=f1e1110]:
+            - generic [ref=f1e1111]: "I understood:"
+            - generic [ref=f1e1112]:
+              - generic [ref=f1e1113]:
+                - text: Free
+                - button "Remove Free" [ref=f1e1114] [cursor=pointer]
+              - generic [ref=f1e1117]:
+                - text: Weekends
+                - button "Remove Weekends" [ref=f1e1118] [cursor=pointer]
+              - generic [ref=f1e1121]:
+                - text: Transit
+                - button "Remove Transit" [ref=f1e1122] [cursor=pointer]
+              - generic [ref=f1e1125]:
+                - text: Step-free entrance (I need this)
+                - button "Remove Step-free entrance (I need this)" [ref=f1e1126] [cursor=pointer]
+              - generic [ref=f1e1129]:
+                - text: Quiet setting (I need this)
+                - button "Remove Quiet setting (I need this)" [ref=f1e1130] [cursor=pointer]
+          - list [ref=f1e1133]:
+            - listitem [ref=f1e1134]:
+              - link "Persian poetry and tea afternoon" [ref=f1e1135] [cursor=pointer]:
+                - /url: "#/event/persian-poetry"
+              - generic [ref=f1e1136]: Sunday, November 8, 3:00 p.m. – 5:00 p.m. · Thornhill Community Centre
+              - generic [ref=f1e1137]:
+                - generic [ref=f1e1138]: Free
+                - generic [ref=f1e1139]: Strong match
+                - generic [ref=f1e1140]: 37 min
+                - generic [ref=f1e1141]: Neighbours rating ★ 5.0
+            - listitem [ref=f1e1142]:
+              - link "Local artists open studio afternoon" [ref=f1e1143] [cursor=pointer]:
+                - /url: "#/event/open-studio"
+              - generic [ref=f1e1144]: Sunday, November 15, 1:00 p.m. – 5:00 p.m. · Unionville Main Street
+              - generic [ref=f1e1145]:
+                - generic [ref=f1e1146]: Free
+                - generic [ref=f1e1147]: Strong match
+                - generic [ref=f1e1148]: 16 min
+                - generic [ref=f1e1149]: Eventbrite ★ 4.8
+                - generic [ref=f1e1150]: Neighbours rating ★ 4.5
+            - listitem [ref=f1e1151]:
+              - link "Sensory-friendly quiet hour" [ref=f1e1152] [cursor=pointer]:
+                - /url: "#/event/quiet-hour"
+              - generic [ref=f1e1153]: Sunday, November 1, 9:00 a.m. – 10:00 a.m. · Markham Village Library
+              - generic [ref=f1e1154]:
+                - generic [ref=f1e1155]: Free
+                - generic [ref=f1e1156]: Possible match
+                - generic [ref=f1e1157]: 33 min
+                - generic [ref=f1e1158]: Neighbours rating ★ 5.0
+          - group [ref=f1e1159]:
+            - generic "How I decided" [ref=f1e1160] [cursor=pointer]
+      - generic [ref=f1e1161]:
+        - generic [ref=f1e1162]: Type here, or tap the microphone
+        - textbox "Type here, or tap the microphone" [ref=f1e1163]
+        - button "Speak" [ref=f1e1164] [cursor=pointer]
+        - button [disabled] [ref=f1e1168]
+      - status [ref=f1e1171]
