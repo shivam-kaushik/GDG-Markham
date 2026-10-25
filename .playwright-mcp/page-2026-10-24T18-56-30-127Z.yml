@@ -1,0 +1,397 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "TodoMarkham" [ref=e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=e12]:
+        - link "Explore" [ref=e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=e17] [cursor=pointer]:
+          - /url: "#/saved"
+        - link "Our mission" [ref=e18] [cursor=pointer]:
+          - /url: "#/mission"
+        - link "About" [ref=e19] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=e20]:
+        - group "Mode" [ref=e21]:
+          - button "Participating" [pressed] [ref=e22] [cursor=pointer]
+          - button "Hosting" [ref=e23] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e28]: Language
+          - combobox "Language" [ref=e29]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=e30] [cursor=pointer]: A−
+        - button "Text size +" [ref=e31] [cursor=pointer]: A+
+        - link "My settings" [ref=e32] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=e33]:
+    - generic [ref=e35]:
+      - region [ref=e36]:
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: TodoMarkham
+          - 'heading "Our mission: events everyone in Markham can find and trust" [level=1] [ref=e41]'
+          - paragraph [ref=e42]: We help every Markham resident find events that fit their language, access needs and way of getting there. Below are the facts we build on, where they come from, and what we could not verify.
+          - generic [ref=e43]:
+            - link "Find events for me" [ref=e44] [cursor=pointer]:
+              - /url: "#/welcome"
+            - link "About" [ref=e48] [cursor=pointer]:
+              - /url: "#/about"
+      - region [ref=e49]:
+        - heading "The problem, in numbers" [level=2] [ref=e50]
+        - paragraph [ref=e51]: Markham is mostly immigrant, multilingual and ageing, and disability is common. Event listings are mostly English, rarely say whether a venue works for you, and rank by popularity.
+        - generic [ref=e52]:
+          - heading "Markham is diverse and multilingual" [level=3] [ref=e53]
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - strong [ref=e56]: ~78%
+              - generic [ref=e57]: of residents identify as a visible minority
+              - generic [ref=e58]: Markham, 2016 Census
+              - link "Markham Museum demographics fact sheet (opens in a new tab)" [ref=e59] [cursor=pointer]:
+                - /url: https://www.markhammuseum.ca/sites/default/files/about-city-markham/Facts%20%26%20Stats/Demographics-Fact-Sheet-Markham-City-Wide.pdf
+                - text: Markham Museum demographics fact sheet
+                - generic [ref=e60]: (opens in a new tab)
+            - listitem [ref=e61]:
+              - strong [ref=e62]: ~59%
+              - generic [ref=e63]: of residents are immigrants
+              - generic [ref=e64]: Markham, 2016 Census
+              - link "Markham Museum demographics fact sheet (opens in a new tab)" [ref=e65] [cursor=pointer]:
+                - /url: https://www.markhammuseum.ca/sites/default/files/about-city-markham/Facts%20%26%20Stats/Demographics-Fact-Sheet-Markham-City-Wide.pdf
+                - text: Markham Museum demographics fact sheet
+                - generic [ref=e66]: (opens in a new tab)
+            - listitem [ref=e67]:
+              - strong [ref=e68]: 23% · 13% · 5% · 2%
+              - generic [ref=e69]: mother tongue Cantonese · Mandarin · Tamil · Persian
+              - generic [ref=e70]: Markham, 2016 Census
+              - link "Markham Museum demographics fact sheet (opens in a new tab)" [ref=e71] [cursor=pointer]:
+                - /url: https://www.markhammuseum.ca/sites/default/files/about-city-markham/Facts%20%26%20Stats/Demographics-Fact-Sheet-Markham-City-Wide.pdf
+                - text: Markham Museum demographics fact sheet
+                - generic [ref=e72]: (opens in a new tab)
+            - listitem [ref=e73]:
+              - strong [ref=e74]: 18.7% · 13.8% · 7.6% · 2.0%
+              - generic [ref=e75]: the same four languages, more recently
+              - generic [ref=e76]: Markham–Thornhill riding (part of the city only), 2021 Census
+              - link "Wikipedia riding profile (opens in a new tab)" [ref=e77] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Markham%E2%80%94Thornhill_(federal_electoral_district)
+                - text: Wikipedia riding profile
+                - generic [ref=e78]: (opens in a new tab)
+          - figure "Mother tongue of Markham residents Markham, 2016 Census. Share of residents. Bars to a 0 to 30% scale." [ref=e79]:
+            - generic [ref=e80]:
+              - strong [ref=e81]: Mother tongue of Markham residents
+              - generic [ref=e82]: Markham, 2016 Census. Share of residents. Bars to a 0 to 30% scale.
+            - list [ref=e83]:
+              - listitem [ref=e84]:
+                - generic [ref=e85]: Cantonese
+                - generic [ref=e88]: 23%
+              - listitem [ref=e89]:
+                - generic [ref=e90]: Mandarin
+                - generic [ref=e93]: 13%
+              - listitem [ref=e94]:
+                - generic [ref=e95]: Tamil
+                - generic [ref=e98]: 5%
+              - listitem [ref=e99]:
+                - generic [ref=e100]: Persian
+                - generic [ref=e103]: 2%
+        - generic [ref=e104]:
+          - heading "Disability and age are common, not niche" [level=3] [ref=e105]
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - strong [ref=e108]: 28.0%
+              - generic [ref=e109]: of people aged 15+ have a disability that limits daily activities
+              - generic [ref=e110]: "Ontario, 2022 (Canada: 27%)"
+              - link "Statistics Canada, Canadian Survey on Disability (opens in a new tab)" [ref=e111] [cursor=pointer]:
+                - /url: https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023063-eng.htm
+                - text: Statistics Canada, Canadian Survey on Disability
+                - generic [ref=e112]: (opens in a new tab)
+            - listitem [ref=e113]:
+              - strong [ref=e114]: 40.4%
+              - generic [ref=e115]: of seniors (65+) have a disability
+              - generic [ref=e116]: Canada, 2022
+              - link "Statistics Canada, Canadian Survey on Disability (opens in a new tab)" [ref=e117] [cursor=pointer]:
+                - /url: https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023063-eng.htm
+                - text: Statistics Canada, Canadian Survey on Disability
+                - generic [ref=e118]: (opens in a new tab)
+            - listitem [ref=e119]:
+              - strong [ref=e120]: 22.3% → 27.0%
+              - generic [ref=e121]: rise in the national disability rate in five years
+              - generic [ref=e122]: Canada, 2017 to 2022
+              - link "Statistics Canada, Canadian Survey on Disability (opens in a new tab)" [ref=e123] [cursor=pointer]:
+                - /url: https://www150.statcan.gc.ca/n1/pub/11-627-m/11-627-m2023063-eng.htm
+                - text: Statistics Canada, Canadian Survey on Disability
+                - generic [ref=e124]: (opens in a new tab)
+            - listitem [ref=e125]:
+              - strong [ref=e126]: 65+ > under 15
+              - generic [ref=e127]: York Region now has more seniors than children
+              - generic [ref=e128]: York Region, 2021 Census
+              - link "York Region 2021 Census report (opens in a new tab)" [ref=e129] [cursor=pointer]:
+                - /url: https://york.ca/media/104971/download
+                - text: York Region 2021 Census report
+                - generic [ref=e130]: (opens in a new tab)
+          - figure "People with a disability that limits daily activities Aged 15+. Seniors are 65+. Bars to a 0 to 50% scale." [ref=e131]:
+            - generic [ref=e132]:
+              - strong [ref=e133]: People with a disability that limits daily activities
+              - generic [ref=e134]: Aged 15+. Seniors are 65+. Bars to a 0 to 50% scale.
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - generic [ref=e137]: Canada, 2017
+                - generic [ref=e140]: 22.3%
+              - listitem [ref=e141]:
+                - generic [ref=e142]: Canada, 2022
+                - generic [ref=e145]: 27.0%
+              - listitem [ref=e146]:
+                - generic [ref=e147]: Ontario, 2022
+                - generic [ref=e150]: 28.0%
+              - listitem [ref=e151]:
+                - generic [ref=e152]: Seniors (65+), Canada, 2022
+                - generic [ref=e155]: 40.4%
+        - generic [ref=e156]:
+          - heading "Loneliness is measurable" [level=3] [ref=e157]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - strong [ref=e160]: 19%
+              - generic [ref=e161]: of seniors reported loneliness
+              - generic [ref=e162]: Canada, 2019 to 2020
+              - link "Statistics Canada (opens in a new tab)" [ref=e163] [cursor=pointer]:
+                - /url: https://statcan.gc.ca/o1/en/plus/4881-look-loneliness-among-seniors
+                - text: Statistics Canada
+                - generic [ref=e164]: (opens in a new tab)
+            - listitem [ref=e165]:
+              - strong [ref=e166]: 38% vs 13%
+              - generic [ref=e167]: lonely among seniors with barriers to taking part, versus those without
+              - generic [ref=e168]: Canada, 2019 to 2020
+              - link "Statistics Canada (opens in a new tab)" [ref=e169] [cursor=pointer]:
+                - /url: https://statcan.gc.ca/o1/en/plus/4881-look-loneliness-among-seniors
+                - text: Statistics Canada
+                - generic [ref=e170]: (opens in a new tab)
+            - listitem [ref=e171]:
+              - strong [ref=e172]: Higher
+              - generic [ref=e173]: loneliness among people who immigrated as adults than among the Canadian-born, in later life
+              - generic [ref=e174]: Canada
+              - link "Statistics Canada study, reported by CTV (opens in a new tab)" [ref=e175] [cursor=pointer]:
+                - /url: https://calgary.ctvnews.ca/immigrant-seniors-lonelier-than-those-born-in-canada-but-research-lacking-statcan-1.6486040
+                - text: Statistics Canada study, reported by CTV
+                - generic [ref=e176]: (opens in a new tab)
+          - figure "Seniors who reported loneliness Canada, 2019 to 2020. Bars to a 0 to 50% scale." [ref=e177]:
+            - generic [ref=e178]:
+              - strong [ref=e179]: Seniors who reported loneliness
+              - generic [ref=e180]: Canada, 2019 to 2020. Bars to a 0 to 50% scale.
+            - list [ref=e181]:
+              - listitem [ref=e182]:
+                - generic [ref=e183]: All seniors
+                - generic [ref=e186]: 19%
+              - listitem [ref=e187]:
+                - generic [ref=e188]: No barriers to taking part
+                - generic [ref=e191]: 13%
+              - listitem [ref=e192]:
+                - generic [ref=e193]: Barriers to taking part
+                - generic [ref=e196]: 38%
+        - paragraph [ref=e197]: "What this means: a large share of Markham is poorly served by listings that are English-only and silent on access. Each figure names its year and area; most are national or Ontario numbers, not Markham ones."
+      - region [ref=e201]:
+        - heading "The problem and the solution, side by side" [level=2] [ref=e202]
+        - paragraph [ref=e203]: An illustrative journey, not a measured statistic.
+        - generic [ref=e204]:
+          - paragraph [ref=e205]: Today, with a typical listing site
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - generic [ref=e212]: "1"
+              - generic [ref=e213]: You search a listing site, usually in English
+            - listitem [ref=e214]:
+              - generic [ref=e219]: "2"
+              - generic [ref=e220]: The listing says little about access, transit or noise
+            - listitem [ref=e221]:
+              - generic [ref=e226]: "3"
+              - generic [ref=e227]: You call, message or visit to find out
+            - listitem [ref=e228]:
+              - generic [ref=e232]: "4"
+              - generic [ref=e233]: You give up, or arrive and it does not work for you
+        - generic [ref=e234]:
+          - paragraph [ref=e235]: With TodoMarkham
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - generic [ref=e242]: "1"
+              - generic [ref=e243]: You type or speak in your language
+            - listitem [ref=e244]:
+              - generic [ref=e248]: "2"
+              - generic [ref=e249]: Maple shows what it understood. You can remove anything wrong.
+            - listitem [ref=e250]:
+              - generic [ref=e255]: "3"
+              - generic [ref=e256]: Search tools find real events. Plain code ranks them for you.
+            - listitem [ref=e257]:
+              - generic [ref=e261]: "4"
+              - generic [ref=e262]: You see picks with reasons, and access marked Confirmed, AI-estimated or Unknown
+      - region [ref=e263]:
+        - heading "Where current options fall short, and what we do" [level=2] [ref=e264]
+        - paragraph [ref=e265]: Based on the public features of each kind of service. Services change, so please check them for the latest.
+        - table [ref=e267]:
+          - caption [ref=e268]: Where current options fall short, and what we do
+          - rowgroup [ref=e269]:
+            - row [ref=e270]:
+              - columnheader "What you get" [ref=e271]
+              - columnheader "Typical listings today" [ref=e272]
+              - columnheader "TodoMarkham" [ref=e273]
+          - rowgroup [ref=e274]:
+            - row [ref=e275]:
+              - rowheader "Accessibility details" [ref=e276]
+              - cell "Free text, or nothing" [ref=e277]
+              - cell "Each need is marked Confirmed, AI-estimated or Unknown. Unknown never means \"no\"." [ref=e278]
+            - row [ref=e279]:
+              - rowheader "Language" [ref=e280]
+              - cell "Mostly English" [ref=e281]
+              - cell "English, Cantonese, Mandarin, Tamil and Persian, with chat and voice in your language" [ref=e282]
+            - row [ref=e283]:
+              - rowheader "Ranking" [ref=e284]
+              - cell "Popularity or paid promotion" [ref=e285]
+              - cell "Scores computed in code from your needs, with the reasons shown. The AI explains; it does not rank." [ref=e286]
+            - row [ref=e287]:
+              - rowheader "Getting there without a car" [ref=e288]
+              - cell "An address" [ref=e289]
+              - cell "Transit options and travel time are part of the ranking" [ref=e290]
+            - row [ref=e291]:
+              - rowheader "Community voice" [ref=e292]
+              - cell "Reviews of the seller" [ref=e293]
+              - cell "Ratings from people who attended, plus a forum and event Q&A" [ref=e294]
+            - row [ref=e295]:
+              - rowheader "Your data" [ref=e296]
+              - cell "Tracked history" [ref=e297]
+              - cell "Kept on your device. Disability needs are saved only after you tap \"Yes, save\", and you can delete them any time." [ref=e298]
+      - region [ref=e299]:
+        - heading "How we use AI" [level=2] [ref=e300]
+        - paragraph [ref=e301]: AI helps with language and conversation. Plain code makes the decisions that must be fair and predictable. Where a feature only looks like AI, we say so.
+        - generic [ref=e302]:
+          - paragraph [ref=e303]: What happens when you ask Maple
+          - list [ref=e304]:
+            - listitem [ref=e305]:
+              - generic [ref=e310]: "1"
+              - generic [ref=e311]: You type or speak
+            - listitem [ref=e312]:
+              - generic [ref=e317]: "2"
+              - generic [ref=e318]: AI reads your words (a model with a key, a keyword list without)
+            - listitem [ref=e319]:
+              - generic [ref=e324]: "3"
+              - generic [ref=e325]: Tools search real events
+            - listitem [ref=e326]:
+              - generic [ref=e330]: "4"
+              - generic [ref=e331]: Plain code scores and ranks
+            - listitem [ref=e332]:
+              - generic [ref=e336]: "5"
+              - generic [ref=e337]: AI explains the reasons in your language
+            - listitem [ref=e338]:
+              - generic [ref=e342]: "6"
+              - generic [ref=e343]: You decide what to save
+        - table [ref=e345]:
+          - caption [ref=e346]: How we use AI
+          - rowgroup [ref=e347]:
+            - row [ref=e348]:
+              - columnheader "What" [ref=e349]
+              - columnheader "How it works" [ref=e350]
+              - columnheader "Why it helps" [ref=e351]
+          - rowgroup [ref=e352]:
+            - row [ref=e353]:
+              - rowheader "Understanding what you type or say Uses AI" [ref=e354]: Understanding what you type or sayUses AI
+              - cell "With a Gemini key, a language model reads free text in any language. Without one, a keyword list for our five languages does it." [ref=e355]
+              - cell "You describe yourself in your own words instead of ticking boxes." [ref=e356]
+            - row [ref=e357]:
+              - rowheader "Finding events with tools Uses AI" [ref=e358]: Finding events with toolsUses AI
+              - cell "The model chooses which search, ranking, transit or detail tool to call. Maple can only show events those tools return." [ref=e359]
+              - cell "It handles messy requests such as \"something quiet near a bus stop on Saturday\" without inventing events." [ref=e360]
+            - row [ref=e361]:
+              - rowheader "Replying in your language Uses AI" [ref=e362]: Replying in your languageUses AI
+              - cell "With a key, the model writes the reply. Without one, we use translated templates." [ref=e363]
+              - cell "Follow-up questions get natural answers in Cantonese, Mandarin, Tamil, Persian or English." [ref=e364]
+            - row [ref=e365]:
+              - rowheader "Voice input and read-aloud Uses AI" [ref=e366]: Voice input and read-aloudUses AI
+              - cell "Your browser’s built-in speech recognition and speech synthesis. We do not train or host any speech model." [ref=e367]
+              - cell "It helps people who find typing hard or prefer to speak." [ref=e368]
+            - row [ref=e369]:
+              - rowheader "Choosing the next question Plain code, no model" [ref=e370]: Choosing the next questionPlain code, no model
+              - cell "Our own algorithm tries every answer and asks the question that would change your top picks the most. It is not machine learning." [ref=e371]
+              - cell "Fewer, better questions get you to useful picks before you give up." [ref=e372]
+            - row [ref=e373]:
+              - rowheader "Suggesting what to save to your profile Uses AI" [ref=e374]: Suggesting what to save to your profileUses AI
+              - cell "Maple proposes it. Nothing is stored until you tap \"Yes, save\"." [ref=e375]
+              - cell "The site learns what matters to you without quietly keeping sensitive details." [ref=e376]
+        - heading "Where we deliberately do not use AI" [level=3] [ref=e377]
+        - list [ref=e378]:
+          - listitem [ref=e379]:
+            - generic [ref=e382]:
+              - strong [ref=e383]: Ranking and scoring events.
+              - text: Plain code does it, so the same input gives the same order, no one can pay for a better place, and the "why this was picked" reasons match the real rule. The model explains; it does not rank.
+          - listitem [ref=e384]:
+            - generic [ref=e387]:
+              - strong [ref=e388]: Access status (Confirmed, AI-estimated, Unknown).
+              - text: Unknown is never turned into yes or no by a guess.
+          - listitem [ref=e389]:
+            - generic [ref=e392]:
+              - strong [ref=e393]: Checking a host’s event for gaps.
+              - text: A fixed checklist is predictable and easy for hosts to understand.
+        - heading "What is not real AI yet" [level=3] [ref=e394]
+        - list [ref=e395]:
+          - listitem [ref=e396]: The "AI-estimated" access labels on sample events were written by hand to show the design. No system estimates access from descriptions or reviews yet.
+          - listitem [ref=e397]: The AI-style summaries of reviews and comments are rule-based today.
+          - listitem [ref=e398]: Live mode with the real Gemini service has been tested only with a stand-in model.
+          - listitem [ref=e399]: Event titles and descriptions are not machine-translated yet.
+      - region [ref=e400]:
+        - heading "Why you can trust it" [level=2] [ref=e401]
+        - list [ref=e402]:
+          - listitem [ref=e403]:
+            - heading "It can only show real events" [level=3] [ref=e407]
+            - paragraph [ref=e408]: Maple shows only events returned by a search tool. It cannot make one up.
+          - listitem [ref=e409]:
+            - heading "It never guesses a condition" [level=3] [ref=e413]
+            - paragraph [ref=e414]: Maple only uses needs you state. Every item it understood appears as a chip you can remove.
+          - listitem [ref=e415]:
+            - heading "You can see how it decided" [level=3] [ref=e419]
+            - paragraph [ref=e420]: Each answer has a "How I decided" list of the steps it took.
+          - listitem [ref=e421]:
+            - heading "Sample data is labelled" [level=3] [ref=e425]
+            - paragraph [ref=e426]: Events, ratings, reviews and conversations in this prototype are made up. Venues are real places.
+      - region [ref=e427]:
+        - heading "Why it is feasible" [level=2] [ref=e428]
+        - list [ref=e429]:
+          - listitem [ref=e430]:
+            - generic [ref=e433]: "It works today: 25 sample events, a chat guide with tools, voice, five languages and 63 passing tests."
+          - listitem [ref=e434]:
+            - generic [ref=e437]: It runs with no AI key. A live model is optional and only used for chat.
+          - listitem [ref=e438]:
+            - generic [ref=e441]: The real risk is supply of events. A pilot with libraries, community centres, temples and seniors groups addresses it.
+      - region [ref=e442]:
+        - heading "What we could not verify" [level=2] [ref=e443]
+        - paragraph [ref=e444]: We list these so you know where the evidence stops.
+        - list [ref=e445]:
+          - listitem [ref=e446]: Markham-wide 2021 Census figures (visible minority share, mother tongues, share aged 65+). We only found 2016 city-wide data and a partial 2021 riding profile. We will add the exact 2021 figures from the Statistics Canada Census Profile.
+          - listitem [ref=e447]: Markham-specific disability and loneliness rates. The disability and loneliness figures above are national or Ontario numbers, not Markham numbers.
+          - listitem [ref=e448]: How often Markham event listings leave out accessibility details. We have no outside statistic for this, and the events in this prototype are samples, so we make no claim. A small audit of real listings is planned.
+      - region [ref=e449]:
+        - heading "How we will know it helps" [level=2] [ref=e450]
+        - paragraph [ref=e451]: "We do not yet claim that people attend more or feel less lonely. That is what a pilot would measure:"
+        - list [ref=e452]:
+          - listitem [ref=e453]: How many questions people answer before they see picks
+          - listitem [ref=e454]: How many events people save or attend
+          - listitem [ref=e455]: How many hosts complete the accessibility checklist
+          - listitem [ref=e456]: How many "Unknown" access fields hosts later confirm
+      - paragraph [ref=e457]: TodoMarkham is a hackathon prototype. The events, ratings and conversations on this site are samples.
+  - contentinfo [ref=e461]:
+    - generic [ref=e462]:
+      - generic [ref=e463]:
+        - strong [ref=e466]: TodoMarkham
+        - generic [ref=e467]: Events in Markham that fit you.
+      - generic [ref=e468]:
+        - link "Our mission" [ref=e469] [cursor=pointer]:
+          - /url: "#/mission"
+        - text: ·
+        - link "About" [ref=e470] [cursor=pointer]:
+          - /url: "#/about"
+        - text: · Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [ref=e471] [cursor=pointer]

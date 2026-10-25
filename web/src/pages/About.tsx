@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { Icon, type IconName } from '../components/Icon';
 import { AgentOrb } from '../components/Motion';
+import { Lane } from '../components/Viz';
+import { JOURNEY_OURS, JOURNEY_TODAY } from '../data/mission';
 import { useT } from '../i18n';
 import type { Key } from '../i18n/en';
 
@@ -76,6 +78,12 @@ export function About() {
       <section aria-labelledby="problem-h" className="problem">
         <h2 id="problem-h">{t('about.problem.title')}</h2>
         <p className="lead">{t('about.problem.body')}</p>
+        <p className="muted small">{t('mission.journey.note')}</p>
+        <Lane tone="today" label={t('mission.journey.today')} steps={JOURNEY_TODAY} />
+        <Lane tone="ours" label={t('mission.journey.ours')} steps={JOURNEY_OURS} />
+        <p>
+          <Link to="/mission">{t('mission.about.link')}</Link>
+        </p>
       </section>
 
       <section aria-labelledby="how-h">

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Icon } from '../components/Icon';
-import { AI_NOT, AI_NOT_YET, AI_USES, GAPS, PILOT_MEASURES, STATS, TRUST, UNVERIFIED } from '../data/mission';
+import { Bars, Lane } from '../components/Viz';
+import { AI_NOT, AI_NOT_YET, AI_USES, CHARTS, GAPS, JOURNEY_OURS, JOURNEY_TODAY, PILOT_MEASURES, PIPELINE, STATS, TRUST, UNVERIFIED } from '../data/mission';
 import { useT } from '../i18n';
 
 export function Mission() {
@@ -28,7 +29,7 @@ export function Mission() {
       <section aria-labelledby="problem-h">
         <h2 id="problem-h">{t('mission.problem.title')}</h2>
         <p className="lead">{t('mission.problem.body')}</p>
-        {STATS.map((g) => (
+        {STATS.map((g, gi) => (
           <div key={g.group} className="stat-group">
             <h3>{g.group}</h3>
             <ul className="stat-grid">
@@ -43,11 +44,19 @@ export function Mission() {
                 </li>
               ))}
             </ul>
+            <Bars {...CHARTS[(['languages', 'disability', 'loneliness'] as const)[gi]]} />
           </div>
         ))}
         <p className="notice">
           <Icon name="info" size={16} /> {t('mission.sowhat')}
         </p>
+      </section>
+
+      <section aria-labelledby="journey-h">
+        <h2 id="journey-h">{t('mission.journey.title')}</h2>
+        <p className="muted small">{t('mission.journey.note')}</p>
+        <Lane tone="today" label={t('mission.journey.today')} steps={JOURNEY_TODAY} />
+        <Lane tone="ours" label={t('mission.journey.ours')} steps={JOURNEY_OURS} />
       </section>
 
       <section aria-labelledby="gaps-h">
@@ -81,6 +90,7 @@ export function Mission() {
       <section aria-labelledby="ai-h">
         <h2 id="ai-h">{t('mission.ai.title')}</h2>
         <p className="lead">{t('mission.ai.lead')}</p>
+        <Lane tone="ours" label={t('mission.pipeline.title')} steps={PIPELINE} />
         <div className="table-wrap">
           <table className="cmp-table">
             <caption className="sr-only">{t('mission.ai.title')}</caption>

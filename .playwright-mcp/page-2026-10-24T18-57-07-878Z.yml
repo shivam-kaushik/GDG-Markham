@@ -1,0 +1,255 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "TodoMarkham" [ref=e6] [cursor=pointer]:
+        - /url: "#/"
+      - navigation "Main" [ref=e12]:
+        - link "Explore" [ref=e13] [cursor=pointer]:
+          - /url: "#/"
+        - link "For you" [ref=e14] [cursor=pointer]:
+          - /url: "#/for-you"
+        - link "Community" [ref=e15] [cursor=pointer]:
+          - /url: "#/community"
+        - link "Map" [ref=e16] [cursor=pointer]:
+          - /url: "#/map"
+        - link "Saved" [ref=e17] [cursor=pointer]:
+          - /url: "#/saved"
+        - link "Our mission" [ref=e18] [cursor=pointer]:
+          - /url: "#/mission"
+        - link "About" [ref=e19] [cursor=pointer]:
+          - /url: "#/about"
+      - generic [ref=e20]:
+        - group "Mode" [ref=e21]:
+          - button "Participating" [pressed] [ref=e22] [cursor=pointer]
+          - button "Hosting" [ref=e23] [cursor=pointer]
+        - generic [ref=e24]:
+          - generic [ref=e28]: Language
+          - combobox "Language" [ref=e29]:
+            - option "English" [selected]
+            - option "廣東話"
+            - option "普通话"
+            - option "தமிழ்"
+            - option "فارسی"
+        - button "Text size −" [ref=e30] [cursor=pointer]: A−
+        - button "Text size +" [ref=e31] [cursor=pointer]: A+
+        - link "My settings" [ref=e32] [cursor=pointer]:
+          - /url: "#/settings"
+          - text: JD
+  - main [active] [ref=e33]:
+    - generic [ref=e478]:
+      - region [ref=e479]:
+        - generic [ref=e480]:
+          - paragraph [ref=e481]: TodoMarkham
+          - heading "About TodoMarkham" [level=1] [ref=e484]
+          - paragraph [ref=e485]: One calm place to find events in Markham that fit your language, your body, your budget and the way you get there.
+          - generic [ref=e486]:
+            - link "Find events for me" [ref=e487] [cursor=pointer]:
+              - /url: "#/welcome"
+            - link "Browse all events" [ref=e491] [cursor=pointer]:
+              - /url: "#/"
+      - region [ref=e498]:
+        - heading "The problem we saw" [level=2] [ref=e499]
+        - paragraph [ref=e500]: Events in Markham are scattered across Eventbrite, Luma, the City, libraries and community groups. Most listings do not say whether there are steps, whether it is loud, whether lights flash, or whether the bus runs when it ends. Many sites speak only English. People end up guessing, or staying home.
+        - paragraph [ref=e501]: An illustrative journey, not a measured statistic.
+        - generic [ref=e502]:
+          - paragraph [ref=e503]: Today, with a typical listing site
+          - list [ref=e504]:
+            - listitem [ref=e505]:
+              - generic [ref=e510]: "1"
+              - generic [ref=e511]: You search a listing site, usually in English
+            - listitem [ref=e512]:
+              - generic [ref=e517]: "2"
+              - generic [ref=e518]: The listing says little about access, transit or noise
+            - listitem [ref=e519]:
+              - generic [ref=e524]: "3"
+              - generic [ref=e525]: You call, message or visit to find out
+            - listitem [ref=e526]:
+              - generic [ref=e530]: "4"
+              - generic [ref=e531]: You give up, or arrive and it does not work for you
+        - generic [ref=e532]:
+          - paragraph [ref=e533]: With TodoMarkham
+          - list [ref=e534]:
+            - listitem [ref=e535]:
+              - generic [ref=e540]: "1"
+              - generic [ref=e541]: You type or speak in your language
+            - listitem [ref=e542]:
+              - generic [ref=e546]: "2"
+              - generic [ref=e547]: Maple shows what it understood. You can remove anything wrong.
+            - listitem [ref=e548]:
+              - generic [ref=e553]: "3"
+              - generic [ref=e554]: Search tools find real events. Plain code ranks them for you.
+            - listitem [ref=e555]:
+              - generic [ref=e559]: "4"
+              - generic [ref=e560]: You see picks with reasons, and access marked Confirmed, AI-estimated or Unknown
+        - paragraph [ref=e561]:
+          - link "See the evidence and sources on our Mission page" [ref=e562] [cursor=pointer]:
+            - /url: "#/mission"
+      - region [ref=e563]:
+        - heading "How TodoMarkham helps" [level=2] [ref=e564]
+        - list [ref=e565]:
+          - listitem [ref=e566]:
+            - heading "Everything in one place" [level=3] [ref=e571]
+            - paragraph [ref=e572]: Events from many sources, each showing exactly where it comes from and its rating there.
+          - listitem [ref=e573]:
+            - heading "Access you can trust" [level=3] [ref=e577]
+            - paragraph [ref=e578]: Every access detail says whether the host confirmed it, we estimated it, or nobody knows yet. "Not known" never means "no".
+          - listitem [ref=e579]:
+            - heading "In your language" [level=3] [ref=e583]
+            - paragraph [ref=e584]: English, Cantonese, Mandarin, Tamil and Persian, including right-to-left reading. Speak or type to Maple in your language.
+          - listitem [ref=e585]:
+            - heading "Getting there, with or without a car" [level=3] [ref=e590]
+            - paragraph [ref=e591]: See travel time by car, bus or on foot, the nearest stop, and whether service runs at the start time.
+          - listitem [ref=e592]:
+            - heading "Maple, your event guide" [level=3] [ref=e597]
+            - paragraph [ref=e598]: Tell Maple what you enjoy, by voice or text. Maple picks events and explains why in plain words. The score comes from clear rules, not guesswork.
+          - listitem [ref=e599]:
+            - heading "A real community" [level=3] [ref=e604]
+            - paragraph [ref=e605]: Ask hosts questions before you go, read honest reviews from people who attended, and help each other in the community forum.
+      - region [ref=e606]:
+        - heading "Who it is for" [level=2] [ref=e607]
+        - list [ref=e608]:
+          - listitem [ref=e609]:
+            - generic [ref=e612]: Seniors who want large, clear pages and seated, calm events.
+          - listitem [ref=e613]:
+            - generic [ref=e616]: Newcomers who want to practise a language and meet neighbours.
+          - listitem [ref=e617]:
+            - generic [ref=e620]: People with disabilities who need to know before they go, by type of need.
+          - listitem [ref=e621]:
+            - generic [ref=e624]: Families and caregivers planning a day that works for everyone.
+          - listitem [ref=e625]:
+            - generic [ref=e628]: Hosts and volunteers who want to be honest about access and get the right people.
+      - region [ref=e629]:
+        - heading "How it compares" [level=2] [ref=e630]
+        - paragraph [ref=e631]: Based on the public features of each kind of service. Services change, so please check them for the latest.
+        - table [ref=e633]:
+          - caption [ref=e634]: How it compares
+          - rowgroup [ref=e635]:
+            - row [ref=e636]:
+              - columnheader "What you get" [ref=e637]
+              - columnheader "TodoMarkham" [ref=e638]
+              - columnheader "Ticketing sites" [ref=e639]
+              - columnheader "City and library calendars" [ref=e640]
+              - columnheader "Social media groups" [ref=e641]
+          - rowgroup [ref=e642]:
+            - row [ref=e643]:
+              - rowheader "Events from many sources in one place" [ref=e644]
+              - cell "Yes" [ref=e645]:
+                - generic [ref=e646]: ✓ Yes
+              - cell "Partly" [ref=e647]:
+                - generic [ref=e648]: ~ Partly
+              - cell "Usually not" [ref=e649]:
+                - generic [ref=e650]: – Usually not
+              - cell "Partly" [ref=e651]:
+                - generic [ref=e652]: ~ Partly
+            - row [ref=e653]:
+              - rowheader "Shows where each event comes from and its rating" [ref=e654]
+              - cell "Yes" [ref=e655]:
+                - generic [ref=e656]: ✓ Yes
+              - cell "Partly" [ref=e657]:
+                - generic [ref=e658]: ~ Partly
+              - cell "Usually not" [ref=e659]:
+                - generic [ref=e660]: – Usually not
+              - cell "Usually not" [ref=e661]:
+                - generic [ref=e662]: – Usually not
+            - row [ref=e663]:
+              - rowheader "Access details marked confirmed, estimated or unknown" [ref=e664]
+              - cell "Yes" [ref=e665]:
+                - generic [ref=e666]: ✓ Yes
+              - cell "Usually not" [ref=e667]:
+                - generic [ref=e668]: – Usually not
+              - cell "Usually not" [ref=e669]:
+                - generic [ref=e670]: – Usually not
+              - cell "Usually not" [ref=e671]:
+                - generic [ref=e672]: – Usually not
+            - row [ref=e673]:
+              - rowheader "Access by type of need (mobility, vision, hearing, sensory, understanding)" [ref=e674]
+              - cell "Yes" [ref=e675]:
+                - generic [ref=e676]: ✓ Yes
+              - cell "Usually not" [ref=e677]:
+                - generic [ref=e678]: – Usually not
+              - cell "Partly" [ref=e679]:
+                - generic [ref=e680]: ~ Partly
+              - cell "Usually not" [ref=e681]:
+                - generic [ref=e682]: – Usually not
+            - row [ref=e683]:
+              - rowheader "Interface and replies in five local languages" [ref=e684]
+              - cell "Yes" [ref=e685]:
+                - generic [ref=e686]: ✓ Yes
+              - cell "Partly" [ref=e687]:
+                - generic [ref=e688]: ~ Partly
+              - cell "Partly" [ref=e689]:
+                - generic [ref=e690]: ~ Partly
+              - cell "Partly" [ref=e691]:
+                - generic [ref=e692]: ~ Partly
+            - row [ref=e693]:
+              - rowheader "Voice input" [ref=e694]
+              - cell "Yes" [ref=e695]:
+                - generic [ref=e696]: ✓ Yes
+              - cell "Usually not" [ref=e697]:
+                - generic [ref=e698]: – Usually not
+              - cell "Usually not" [ref=e699]:
+                - generic [ref=e700]: – Usually not
+              - cell "Usually not" [ref=e701]:
+                - generic [ref=e702]: – Usually not
+            - row [ref=e703]:
+              - rowheader "Bus time, nearest stop and service at start time" [ref=e704]
+              - cell "Yes" [ref=e705]:
+                - generic [ref=e706]: ✓ Yes
+              - cell "Usually not" [ref=e707]:
+                - generic [ref=e708]: – Usually not
+              - cell "Partly" [ref=e709]:
+                - generic [ref=e710]: ~ Partly
+              - cell "Usually not" [ref=e711]:
+                - generic [ref=e712]: – Usually not
+            - row [ref=e713]:
+              - rowheader "Personal picks that explain why" [ref=e714]
+              - cell "Yes" [ref=e715]:
+                - generic [ref=e716]: ✓ Yes
+              - cell "Partly" [ref=e717]:
+                - generic [ref=e718]: ~ Partly
+              - cell "Usually not" [ref=e719]:
+                - generic [ref=e720]: – Usually not
+              - cell "Partly" [ref=e721]:
+                - generic [ref=e722]: ~ Partly
+            - row [ref=e723]:
+              - rowheader "Questions to the host and a community forum" [ref=e724]
+              - cell "Yes" [ref=e725]:
+                - generic [ref=e726]: ✓ Yes
+              - cell "Partly" [ref=e727]:
+                - generic [ref=e728]: ~ Partly
+              - cell "Usually not" [ref=e729]:
+                - generic [ref=e730]: – Usually not
+              - cell "Yes" [ref=e731]:
+                - generic [ref=e732]: ✓ Yes
+            - row [ref=e733]:
+              - rowheader "Large text and high-contrast mode" [ref=e734]
+              - cell "Yes" [ref=e735]:
+                - generic [ref=e736]: ✓ Yes
+              - cell "Usually not" [ref=e737]:
+                - generic [ref=e738]: – Usually not
+              - cell "Partly" [ref=e739]:
+                - generic [ref=e740]: ~ Partly
+              - cell "Usually not" [ref=e741]:
+                - generic [ref=e742]: – Usually not
+      - region [ref=e743]:
+        - heading "Our promises" [level=2] [ref=e744]
+        - list [ref=e745]:
+          - listitem [ref=e746]: We label what we know. Confirmed, estimated and unknown are never mixed up.
+          - listitem [ref=e747]: Your answers stay on your device in this prototype. They are never used for ads, and you can delete them at any time.
+          - listitem [ref=e748]: AI explains, rules decide. Scores come from clear rules, and Maple can only recommend real events from the list.
+      - paragraph [ref=e749]: TodoMarkham is a hackathon prototype. The events, ratings and conversations on this site are samples.
+  - contentinfo [ref=e461]:
+    - generic [ref=e462]:
+      - generic [ref=e463]:
+        - strong [ref=e466]: TodoMarkham
+        - generic [ref=e467]: Events in Markham that fit you.
+      - generic [ref=e468]:
+        - link "Our mission" [ref=e469] [cursor=pointer]:
+          - /url: "#/mission"
+        - text: ·
+        - link "About" [ref=e470] [cursor=pointer]:
+          - /url: "#/about"
+        - text: · Made for Markham. Not affiliated with the City of Markham.
+  - button "Ask Maple" [ref=e471] [cursor=pointer]

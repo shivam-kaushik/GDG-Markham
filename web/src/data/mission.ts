@@ -1,3 +1,5 @@
+import type { Bar, Step } from '../components/Viz';
+
 /**
  * Evidence behind the Mission page. Every figure names its year, its geography and a link.
  * Keep it honest: if a number is not verified, it goes in UNVERIFIED, not in STATS.
@@ -239,4 +241,64 @@ export const AI_NOT_YET: string[] = [
   'The AI-style summaries of reviews and comments are rule-based today.',
   'Live mode with the real Gemini service has been tested only with a stand-in model.',
   'Event titles and descriptions are not machine-translated yet.',
+];
+
+
+/** Bar values are copied from STATS in mission.ts. Do not change one without the other. */
+export const CHARTS: Record<'languages' | 'disability' | 'loneliness', { title: string; caption: string; scaleMax: number; bars: Bar[] }> = {
+  languages: {
+    title: 'Mother tongue of Markham residents',
+    caption: 'Markham, 2016 Census. Share of residents. Bars to a 0 to 30% scale.',
+    scaleMax: 30,
+    bars: [
+      { label: 'Cantonese', value: 23, focus: true },
+      { label: 'Mandarin', value: 13, focus: true },
+      { label: 'Tamil', value: 5, focus: true },
+      { label: 'Persian', value: 2, focus: true },
+    ],
+  },
+  disability: {
+    title: 'People with a disability that limits daily activities',
+    caption: 'Aged 15+. Seniors are 65+. Bars to a 0 to 50% scale.',
+    scaleMax: 50,
+    bars: [
+      { label: 'Canada, 2017', value: 22.3, display: '22.3%' },
+      { label: 'Canada, 2022', value: 27.0, display: '27.0%' },
+      { label: 'Ontario, 2022', value: 28.0, display: '28.0%' },
+      { label: 'Seniors (65+), Canada, 2022', value: 40.4, display: '40.4%', focus: true },
+    ],
+  },
+  loneliness: {
+    title: 'Seniors who reported loneliness',
+    caption: 'Canada, 2019 to 2020. Bars to a 0 to 50% scale.',
+    scaleMax: 50,
+    bars: [
+      { label: 'All seniors', value: 19 },
+      { label: 'No barriers to taking part', value: 13 },
+      { label: 'Barriers to taking part', value: 38, focus: true },
+    ],
+  },
+};
+
+export const JOURNEY_TODAY: Step[] = [
+  { icon: 'search', text: 'You search a listing site, usually in English' },
+  { icon: 'info', text: 'The listing says little about access, transit or noise' },
+  { icon: 'clock', text: 'You call, message or visit to find out' },
+  { icon: 'x', text: 'You give up, or arrive and it does not work for you' },
+];
+
+export const JOURNEY_OURS: Step[] = [
+  { icon: 'mic', text: 'You type or speak in your language' },
+  { icon: 'message', text: 'Maple shows what it understood. You can remove anything wrong.' },
+  { icon: 'search', text: 'Search tools find real events. Plain code ranks them for you.' },
+  { icon: 'check', text: 'You see picks with reasons, and access marked Confirmed, AI-estimated or Unknown' },
+];
+
+export const PIPELINE: Step[] = [
+  { icon: 'mic', text: 'You type or speak' },
+  { icon: 'sparkles', text: 'AI reads your words (a model with a key, a keyword list without)' },
+  { icon: 'search', text: 'Tools search real events' },
+  { icon: 'sliders', text: 'Plain code scores and ranks' },
+  { icon: 'message', text: 'AI explains the reasons in your language' },
+  { icon: 'check', text: 'You decide what to save' },
 ];
